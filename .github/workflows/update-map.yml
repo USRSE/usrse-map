@@ -1,7 +1,6 @@
 name: Update USRSE Map
 
 on:
-  pull_request: []
   schedule:
     # Run once a week on Sunday
     - cron: 0 0 * * 0
