@@ -2,6 +2,8 @@
 
 This repository contains static files and workflows to generate the US-RSE map.
 
+![assets/img/usrse-map.png](assets/img/usrse-map.png)
+
 ## 1. How does it work?
 
 The map locations are derived from the US-RSE official roster, meaning
