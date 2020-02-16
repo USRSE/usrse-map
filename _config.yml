@@ -12,6 +12,7 @@ mapbox: "pk.eyJ1IjoidnNvY2giLCJhIjoiY2sxdXE4dGZ6MGxveTNibzBqc2E5OXpzbiJ9.OdVyKYm
 
 # Name of website
 title: US-RSE Association
+github_url: USRSE/usrse-map
 
 # Short description of your site
 description: US Research Software Engineer Association Map
