@@ -8,6 +8,7 @@ import os
 import pytest
 import re
 import requests
+from time import sleep
 from geopy.geocoders import Nominatim
 
 here = os.path.dirname(os.path.abspath(__file__))
@@ -96,6 +97,7 @@ def test_locations_lookup(tmp_path):
             continue
 
         location = geolocator.geocode(address)
+        sleep(0.5)
         assert location
 
     print("*Use preview on CircleCI to ensure that locations found are correct*")
