@@ -40,6 +40,21 @@ def get_lookup():
     return filepath
 
 
+def get_location(geolocator, address, delay=1.5, attempts=3):
+    """Retry to use the geolocator, fail after some number of attempts
+    """
+    try:
+        time.sleep(delay)
+        location = geolocator.geocode(address)
+        return location
+    except:
+        if attempts > 0:
+            return get_location(
+                geolocator, address, delay=delay + 1, attempts=attempts - 1
+            )
+        raise
+
+
 def read_rows(filepath, newline="", delim=","):
     """read in the data rows of a csv file.
     """
@@ -99,10 +114,9 @@ def main():
         print("Looking up %s in %s" % (name, address))
         # Second shot, try for international address
 
-        location = geolocator.geocode(address)
+        location = get_location(geolocator, address)
 
         # Rate limit is 1 per second
-        time.sleep(1.5)
         if location:
             lat = location.latitude
             lng = location.longitude
