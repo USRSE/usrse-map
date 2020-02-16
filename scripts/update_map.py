@@ -100,7 +100,9 @@ def main():
         # Second shot, try for international address
 
         location = geolocator.geocode(address)
-        time.sleep(0.5)
+
+        # Rate limit is 1 per second
+        time.sleep(1.5)
         if location:
             lat = location.latitude
             lng = location.longitude
