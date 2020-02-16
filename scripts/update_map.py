@@ -20,6 +20,7 @@ import requests
 import shutil
 import sys
 import tempfile
+import time
 
 here = os.path.dirname(os.path.abspath(__file__))
 
@@ -99,6 +100,7 @@ def main():
         # Second shot, try for international address
 
         location = geolocator.geocode(address)
+        time.sleep(0.5)
         if location:
             lat = location.latitude
             lng = location.longitude
