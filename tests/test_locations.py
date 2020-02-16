@@ -97,7 +97,7 @@ def test_locations_lookup(tmp_path):
             continue
 
         location = geolocator.geocode(address)
-        sleep(0.5)
+        sleep(1.5)
         assert location
 
     print("*Use preview on CircleCI to ensure that locations found are correct*")
