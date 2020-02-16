@@ -4,7 +4,7 @@ This repository contains static files and workflows to generate the US-RSE map.
 
 ![assets/img/usrse-map.png](assets/img/usrse-map.png)
 
-## 1. How does it work?
+## How does it work?
 
 The map locations are derived from the US-RSE official roster, meaning
 that the institutions or companies are exported, and associated
@@ -15,14 +15,14 @@ The idea behind using a lookup is that (over time) most locations will be repres
 and so new members to USRSE will simply use these same locations and we'll update the counts
 with the GitHub workflow.
 
-### 2. How do I update the map?
+### 1. How do I update the map?
 
 You don't! The automated workflow does. The workflow under [.github/workflows/update-map.yml](.github/workflows/update-map.yml)
 handles this for you. To add yourself (if you haven't yet) you can fill out the 
 institution field under the [join form](https://docs.google.com/forms/d/e/1FAIpQLSdJbPczGHFN8mfMFu_YQym508OzFtOZxfSzr1sOoINxaMmiaw/viewform).
 
 
-### 3. How do update locations?
+### 2. How do update locations?
 
 The [locations lookup](_data/location-lookup.tsv) is what we update with new institutions.
 Basically, it's a lookup of institution name (represented in the roster) and matching
