@@ -20,6 +20,7 @@ import requests
 import shutil
 import sys
 import tempfile
+import time
 
 here = os.path.dirname(os.path.abspath(__file__))
 
@@ -37,6 +38,21 @@ def get_lookup():
     if not os.path.exists(filepath):
         sys.exit("Cannot find %s" % filepath)
     return filepath
+
+
+def get_location(geolocator, address, delay=1.5, attempts=3):
+    """Retry to use the geolocator, fail after some number of attempts
+    """
+    try:
+        time.sleep(delay)
+        location = geolocator.geocode(address)
+        return location
+    except:
+        if attempts > 0:
+            return get_location(
+                geolocator, address, delay=delay + 1, attempts=attempts - 1
+            )
+        raise
 
 
 def read_rows(filepath, newline="", delim=","):
@@ -98,7 +114,9 @@ def main():
         print("Looking up %s in %s" % (name, address))
         # Second shot, try for international address
 
-        location = geolocator.geocode(address)
+        location = get_location(geolocator, address)
+
+        # Rate limit is 1 per second
         if location:
             lat = location.latitude
             lng = location.longitude
@@ -118,6 +136,10 @@ def main():
         if line not in counts:
             counts[line] = 0
         counts[line] += 1
+
+    # Alert user about unknown locations
+    print("UNKNOWN:\n %s\n" % "\n".join(unknown))
+    print("MISSING:\n %s" % "\n".join(missing))
 
     # Generate list of names with latitude and longitude for each
     # [name, lat, long, count]

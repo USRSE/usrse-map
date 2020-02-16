@@ -1,6 +1,6 @@
 name,lat,lng,count
 penn state,40.7944504,-77.8616386,2
-caltech,34.1476452, -118.1444779,1
+caltech,34.1476452,-118.1444779,1
 northwestern university,42.0447388,-87.6930459,3
 yale university,41.3082138,-72.9250518,3
 brown university,41.8239891,-71.4128343,5
@@ -36,6 +36,7 @@ new york university,40.7127281,-74.0060152,3
 australian research data commons,-37.881276,145.0420847,1
 stanford university,37.427467,-122.1702445,6
 cfd research corporation,34.729847,-86.5859011,1
+indian institute of technology kanpur,26.4609135,80.3217588,1
 syf nepal,27.709913550000003,85.32474911622879,1
 imperial college london,51.4953911,-0.1734069,1
 university of chicago,41.8755616,-87.6244212,1
@@ -83,6 +84,7 @@ lawrence berkeley national laboratory,44.3669375,-80.7272504,3
 lawrence berkeley national laboratory,44.3669375,-80.7272504,3
 lawrence livermore national lab,37.6820583,-121.7680531,1
 the pennsylvania state university,40.7944504,-77.8616386,1
+insurtechnix,52.3314292,-0.1847723,1
 kitware,42.8656325,-73.7709535,1
 argonne national laboratory,41.673642,-88.0017261,3
 georgia tech,33.7490987,-84.3901849,2
@@ -108,6 +110,7 @@ cleveland clinic,41.5051613,-81.6934446,1
 southern methodist university,32.7762719,-96.7968559,1
 argonne national laboratory,41.673642,-88.0017261,3
 uiuc,40.1164205,-88.2433829,1
+inria,49.6502698,2.4172616,1
 arizona state university,33.4484367,-112.0741417,2
 indiana university,39.1670396,-86.5342881,2
 georgetown university,38.8948932,-77.0365529,1

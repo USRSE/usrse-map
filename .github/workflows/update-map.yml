@@ -1,0 +1,49 @@
+name: Update USRSE Map
+
+on:
+  pull_request: []
+  schedule:
+    # Run once a week on Sunday
+    - cron: 0 0 * * 0
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v1
+
+    - name: Install dependencies and run script
+      run: |
+        sudo apt-get update && sudo apt-get install -y python3 python3-pip wget
+        sudo pip3 install -r requirements.txt
+        # Ensure using a particular version
+        wget -O scripts/_update_map.py https://raw.githubusercontent.com/USRSE/usrse-map/442e81184fd5970437c61cdfa6ea5f73fc14edad/scripts/update_map.py
+        chmod +x scripts/_update_map.py
+        python3 scripts/_update_map.py
+
+    - name: Test Newly Generated Data
+      run: pytest -v -x tests/test_*.py
+
+    - name: Checkout New Branch
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH_AGAINST: "master"
+      run: |
+        echo "GitHub Actor: ${GITHUB_ACTOR}"
+        git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        git branch
+        git checkout -b update/member-map-$(date '+%Y-%m-%d')
+        git branch
+
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@users.noreply.github.com"
+
+        git add _data/locations.csv
+        git commit -m "Automated deployment to update Member Map $(date '+%Y-%m-%d')" --allow-empty
+        git push origin update/member-map-$(date '+%Y-%m-%d')
+
+        export BRANCH_FROM="update/member-map-$(date '+%Y-%m-%d')"
+        wget https://raw.githubusercontent.com/USRSE/usrse-map/442e81184fd5970437c61cdfa6ea5f73fc14edad/scripts/pull-request.sh
+        chmod +x ./pull-request.sh
+        /bin/bash -e ./pull-request.sh
