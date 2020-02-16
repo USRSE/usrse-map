@@ -119,6 +119,10 @@ def main():
             counts[line] = 0
         counts[line] += 1
 
+    # Alert user about unknown locations
+    print("UNKNOWN:\n %s\n" % "\n".join(unknown))
+    print("MISSING:\n %s" % "\n".join(missing))
+
     # Generate list of names with latitude and longitude for each
     # [name, lat, long, count]
     locations = [["name", "lat", "lng", "count"]]
