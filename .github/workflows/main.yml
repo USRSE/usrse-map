@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches_ignore: []
+
+jobs:
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Setup conda environment
+        run: conda create --quiet --name usrse-map geopy pytest
+
+      - name: Run tests
+        run: |
+          export PATH="/usr/share/miniconda/bin:$PATH"
+          source activate usrse-map
+          pytest -v -x tests/test_*.py
+
+      - name: Alert user of failure
+        if: github.event_name == 'pull_request' && failure()
+        uses: marocchino/sticky-pull-request-comment@v1.1.0
+        with:
+          message: 'Please format your code with [black](https://black.readthedocs.io): `black snakemake tests/*.py`.'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Test AWS execution
+        if: success()
+        env: 
+          CI: true
+        run: |
+          # activate conda env
+          export PATH="/usr/share/miniconda/bin:$PATH"
+          source activate snakemake
