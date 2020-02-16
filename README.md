@@ -1,5 +1,7 @@
 # The US-RSE Map
 
+[![GitHub actions status](https://github.com/USRSE/usrse-map/workflows/CI/badge.svg?branch=master)](https://github.com/USRSE/usrse-map/actions?query=branch%3Amaster+workflow%3ACI)
+
 This repository contains static files and workflows to generate the US-RSE map.
 
 ![assets/img/usrse-map.png](assets/img/usrse-map.png)
