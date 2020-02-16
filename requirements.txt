@@ -1,2 +1,3 @@
 #uszipcode==0.2.4
 geopy==1.21.0
+requests
