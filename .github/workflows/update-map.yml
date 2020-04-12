@@ -2,8 +2,8 @@ name: Update USRSE Map
 
 on:
   schedule:
-    # Run once a week on Sunday
-    - cron: 0 0 * * 0
+    # Run once a month
+    - cron: 0 0 1 * *
 
 jobs:
   build:
