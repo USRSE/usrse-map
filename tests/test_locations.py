@@ -64,13 +64,10 @@ def test_locations_lookup(tmp_path):
     assert lines[0][0] == "name"
     assert lines[0][1] == "city-state"
 
-    # 2. must be all lowercase, in abc order
-    print("2. Names must be all lowercase and in alphabetical order.")
-    names = [x[0].lower() for x in lines[1:]]
-    comparator = list(set(x[0] for x in lines[1:]))
-    comparator.sort()
-    for i in range(len(names)):
-        assert comparator[i] == names[i]
+    # 2. must be all lowercase
+    print("2. Names must be all lowercase")
+    for line in lines:
+        assert line[0] == line[0].lower()
 
     # 3. All locations in lookup must be in actual data
     print("3. All locations in lookup must be in actual data.")
