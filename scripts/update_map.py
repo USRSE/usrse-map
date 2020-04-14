@@ -129,6 +129,9 @@ def main():
     unknown = set()
     counts = {}
 
+    # Keep sorted
+    lines.sort()
+
     for line in lines:
         if line not in lookup:
             unknown.add(line)
@@ -143,8 +146,14 @@ def main():
 
     # Generate list of names with latitude and longitude for each
     # [name, lat, long, count]
+    seen = set()
     locations = [["name", "lat", "lng", "count"]]
     for name in lines:
+
+        if name in seen:
+            continue
+
+        seen.add(name)
 
         # We found a location (lat long) for the place!
         if name in latlong and name in counts:
