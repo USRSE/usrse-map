@@ -8,9 +8,9 @@ baylor college of medicine,29.7589382,-95.3676974,1
 boise state university,43.6166163,-116.200886,1
 boston university,42.3602534,-71.0582912,1
 brown university,41.8239891,-71.4128343,6
-california institute of technology,49.0139234,-57.5986531,1
+california institute of technology,34.1476452,-118.1444779,1
 caltech,34.1476452,-118.1444779,2
-caltech/ipac,49.0139234,-57.5986531,1
+caltech/ipac,34.1476452,-118.1444779,1
 cfd research corporation,34.729847,-86.5859011,1
 chapman university,45.8413676,-74.2168946,1
 clemson university,34.6850749,-82.8364111,1
@@ -21,8 +21,8 @@ columbia university and self,40.7127281,-74.0060152,1
 cuny hunter college,40.7127281,-74.0060152,1
 dartmouth college,43.7031165,-72.2898092,1
 dftworks llc,38.896729,-77.29866437219505,1
-george washington university,38.8948932,-77.0365529,1
-georgetown university,38.8948932,-77.0365529,1
+george washington university,38.8949855,-77.0365708,1
+georgetown university,38.8949855,-77.0365708,1
 georgia tech,33.7490987,-84.3901849,2
 harvard t.h. chan school of public health,42.3602534,-71.0582912,1
 harvard university,42.3750997,-71.1056157,3
@@ -34,7 +34,7 @@ indiana university,39.1670396,-86.5342881,2
 inria,49.6502698,2.4172616,1
 insurtechnix,52.3314292,-0.1847723,1
 intellectual ventures,47.6144219,-122.1923372,1
-internet2,38.8948932,-77.0365529,2
+internet2,38.8949855,-77.0365708,2
 iris passcal new mexico institute of mining and technology,34.0572858,-106.8930799,1
 kitware,42.8656325,-73.7709535,1
 lanl,35.8814009,-106.2989958,1
@@ -49,7 +49,7 @@ los alamos national laboratory,35.8814009,-106.2989958,6
 mcmaster university,43.2613342,-79.92108999923123,1
 michigan state university,42.7355416,-84.4852469,1
 microsoft,47.6694141,-122.1238767,1
-nasa exoplanet science institute / ipac-caltech,49.0139234,-57.5986531,1
+nasa exoplanet science institute / ipac-caltech,34.1476452,-118.1444779,1
 national center for atmospheric research,40.0149856,-105.2705456,1
 national center for supercomputing applications,40.1117174,-88.207301,2
 national institutes of health,38.9819845,-77.12423413116392,1
@@ -124,7 +124,7 @@ university of washington,47.6038321,-122.3300624,5
 university of wisconsin-madison,43.074761,-89.3837613,1
 university of wisconsinâmadison,43.074761,-89.3837613,1
 university of wyoming,41.311367,-105.591101,1
-us naval research laboratory,38.8948932,-77.0365529,1
+us naval research laboratory,38.8949855,-77.0365708,1
 usda-forest products laboratory,43.074761,-89.3837613,1
 uw madison,43.074761,-89.3837613,1
 vanderbilt university,36.1622296,-86.7743531,1
