@@ -39,6 +39,14 @@ def get_lookup():
         sys.exit("Cannot find %s" % filepath)
     return filepath
 
+def get_locations():
+    """get path for the locations already found
+    """
+    filepath = os.path.join(os.path.dirname(here), "_data", "locations.csv")
+    if not os.path.exists(filepath):
+        sys.exit("Cannot find %s" % filepath)
+    return filepath
+
 
 def get_location(geolocator, address, delay=1.5, attempts=3):
     """Retry to use the geolocator, fail after some number of attempts
@@ -90,6 +98,12 @@ def main():
     # Read the location lookup file
     lookup_rows = read_rows(get_lookup(), delim="\t")
 
+    # These locations we've already found
+    locations = read_rows(get_locations(), delim=",")
+    assert locations[0] == ['name', 'lat', 'lng', 'count']
+    locations.pop(0)
+    locations = {x[0]:x[1:] for x in locations}
+
     # Remove header (should have name and city-state)
     assert lookup_rows[0][0] == "name"
     assert lookup_rows[0][1] == "city-state"
@@ -111,19 +125,22 @@ def main():
         if address == "remote":
             continue
 
-        print("Looking up %s in %s" % (name, address))
-        # Second shot, try for international address
-
-        location = get_location(geolocator, address)
-
-        # Rate limit is 1 per second
-        if location:
-            lat = location.latitude
-            lng = location.longitude
-            latlong[name] = [lat, lng]
+        if name in locations:
+            latlong[name] = locations[name]
         else:
-            print("%s: %s is not found with geocoding." % (name, address))
-            missing.add(name)
+            print("Looking up %s in %s" % (name, address))
+            # Second shot, try for international address
+
+            location = get_location(geolocator, address)
+
+            # Rate limit is 1 per second
+            if location:
+                lat = location.latitude
+                lng = location.longitude
+                latlong[name] = [lat, lng]
+            else:
+                print("%s: %s is not found with geocoding." % (name, address))
+                missing.add(name)
 
     # Keep track of locations not known, counts known
     unknown = set()

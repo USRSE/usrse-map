@@ -69,16 +69,7 @@ def test_locations_lookup(tmp_path):
     for line in lines:
         assert line[0] == line[0].lower()
 
-    # 3. All locations in lookup must be in actual data
-    print("3. All locations in lookup must be in actual data.")
-    data = get_sheet_data()
-    for line in lines[1:]:
-        name = line[0]
-        if name in skips:
-            continue
-        assert name in data
-
-    # 4. Ensure that each location has a lat and long
+    # 3. Ensure that each location has a lat and long
     print("4. Testing that each location has a latitude and longitude.")
     geolocator = Nominatim(user_agent="us-rse.org")
     for line in lines[1:]:
