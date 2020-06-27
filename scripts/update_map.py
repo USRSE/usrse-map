@@ -14,6 +14,7 @@ import sys
 
 import os
 import csv
+import re
 import time
 
 here = os.path.dirname(os.path.abspath(__file__))
@@ -98,6 +99,13 @@ def main():
         if address in ["remote", "", None]:
             continue
 
+        # Berkeley CA is also in candata
+        if address == "berkeley, ca":
+            address = "berkeley, california"
+
+        if re.search(", ca$", address):
+            print("Found %s, suggested to change to california" % address)
+
         if address not in locations:
             print("Looking up %s" % address)
             # Second shot, try for international address
@@ -147,7 +155,7 @@ def main():
         seen.add(name)
 
         # We found a location (lat long) for the place!
-        if name in locations and name in counts:
+        if name in locations and name in counts and counts[name] > 0:
             updated.append([name, locations[name][0], locations[name][1], counts[name]])
 
     print("Found a total of %s locations, each with a count!" % (len(updated) - 1))

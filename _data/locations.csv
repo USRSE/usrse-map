@@ -3,7 +3,7 @@ name,lat,lng,count
 "evanston, il",42.0447388,-87.6930459,5
 "new haven, ct",41.3082138,-72.9250518,4
 "providence, ri",41.8239891,-71.4128343,9
-"stanford, ca",37.427467,-122.1702445,27
+"stanford, california",37.427467,-122.1702445,27
 "pittsburgh, pa",40.4416941,-79.9900861,4
 "state college, pa",40.7944504,-77.8616386,4
 "east lansing, mi",42.7355416,-84.4852469,2
@@ -12,9 +12,9 @@ name,lat,lng,count
 "buffalo, ny",42.8867166,-78.8783922,1
 "austin, tx",30.2711286,-97.7436995,2
 "san antonio, tx",29.4246002,-98.4951405,1
-"berkeley, ca",44.3669375,-80.7272504,8
+"berkeley, california",37.8708393,-122.2728639,8
 "lexington, ky",38.0464066,-84.4970393,2
-"santa clara, ca",37.2333253,-121.6846349,3
+"santa clara, california",37.2333253,-121.6846349,3
 "atlanta, ga",33.7490987,-84.3901849,4
 "chapel hill, nc",35.9131542,-79.05578,2
 "los alamos, nm",35.8814009,-106.2989958,7
@@ -34,7 +34,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "blacksburg, va",37.2296566,-80.4136767,1
 "new york city, ny",40.7127281,-74.0060152,7
 "reading, united kingdom",51.456659,-0.9696512,1
-"los angeles, ca",34.0536909,-118.2427666,2
+"los angeles, california",34.0536909,-118.2427666,2
 "washington, dc",38.8949855,-77.0365708,8
 "newark, de",39.6852191,-75.7508289,1
 "bloomington, in",39.1670396,-86.5342881,2
@@ -47,7 +47,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "madison, wi",43.074761,-89.3837613,6
 "houston, tx",29.7589382,-95.3676974,1
 "charlottesville, va",38.029306,-78.4766781,1
-"livermore, ca",37.6820583,-121.7680531,4
+"livermore, california",37.6820583,-121.7680531,4
 "huntingdon, united kingdom",52.3314292,-0.1847723,1
 "clifton park, ny",42.8656325,-73.7709535,2
 "lemont, il",40.8106174,-77.8183337,3
@@ -59,11 +59,11 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "toronto, canada",43.6534817,-79.3839347,1
 "champaign, il",40.1164205,-88.2433829,4
 "memphis, tn",35.1490215,-90.0516285,2
-"cleveland , ohio",41.5051613,-81.6934446,1
+"cleveland, ohio",41.5051613,-81.6934446,1
 "dallas, tx",32.7762719,-96.7968559,1
 "rocquencourt, france",49.6502698,2.4172616,1
 "gunnison, co",38.6476702,-107.0603126,1
-"santa monica, ca",46.724362,-75.559685,2
+"santa monica, ca",46.724362,-75.559685,1
 "haverford, pa",40.0131672,-75.2943516,1
 "orlando, fl",28.5421109,-81.3790304,3
 "waterloo, ontario, canada, n2l 2y5",43.466874,-80.524635,2
@@ -74,16 +74,18 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "amherst, ma",42.3685658,-72.505714,1
 "oakton, va",38.896729,-77.29866437219505,1
 "socorro, nm",34.0572858,-106.8930799,1
-"orange, ca",45.8413676,-74.2168946,1
+"santa monica, california",34.0250724,-118.4965129,1
+"orange, california",33.7500378,-117.8704931,1
 "nashville, tn",36.1622296,-86.7743531,2
 "tuscon, az",32.1975976,-111.0808672,1
 "ann arbor, mi",42.2681569,-83.7312291,1
 "montreal, canada",45.4972159,-73.6103642,1
-"menlo park, ca",37.4519671,-122.1779927,6
+"menlo park, ca",37.4519671,-122.1779927,1
+"menlo park, california",37.4519671,-122.1779927,5
 "nethergate, dundee dd1 4hn, united kingdom",56.4573119,-2.9758871,1
 "honolulu, hi",21.304547,-157.8556764,1
 "durham, nh",43.134564,-70.927048,1
-"san diego, ca",32.7174209,-117.1627714,2
+"san diego, california",32.7174209,-117.1627714,2
 "1280 main st w, hamilton, on l8s 4l8, canada",43.2613342,-79.92108999923123,1
 "boston, ma",42.3602534,-71.0582912,2
 "seattle, washington",47.6038321,-122.3300624,1
