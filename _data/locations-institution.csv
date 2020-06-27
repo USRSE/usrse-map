@@ -1,0 +1,162 @@
+name,lat,lng,count
+amazon,47.6038321,-122.3300624,1
+applied materials inc,37.2333253,-121.6846349,1
+argonne national laboratory,41.673642,-88.0017261,3
+arizona state university,33.4484367,-112.0741417,2
+australian research data commons,-37.881276,145.0420847,1
+baylor college of medicine,29.7589382,-95.3676974,1
+boise state university,43.6166163,-116.200886,2
+boston university,42.3602534,-71.0582912,1
+brown university,41.8239891,-71.4128343,9
+california institute of technology,34.1476452,-118.1444779,1
+caltech,34.1476452,-118.1444779,2
+caltech/ipac,34.1476452,-118.1444779,1
+central connecticut state university,41.6612104,-72.7795419,1
+cfd research corporation,34.729847,-86.5859011,1
+chapman university,45.8413676,-74.2168946,1
+clemson university,34.6850749,-82.8364111,2
+cleveland clinic,41.5051613,-81.6934446,1
+"cohere consulting, llc",47.6038321,-122.3300624,1
+columbia university,40.7127281,-74.0060152,4
+columbia university and self,40.7127281,-74.0060152,1
+cuny hunter college,40.7127281,-74.0060152,1
+dana farber cancer institute,42.3602534,-71.0582912,1
+dartmouth college,43.7031165,-72.2898092,1
+dftworks llc,38.896729,-77.29866437219505,1
+environment and climate change canada,45.421106,-75.690308,1
+flatiron institute,40.7127281,-74.0060152,1
+fluid numerics llc,40.0149856,-105.2705456,1
+george washington university,38.8949855,-77.0365708,1
+georgetown university,38.8949855,-77.0365708,2
+georgia inst. of technology,33.7490987,-84.3901849,1
+georgia tech,33.7490987,-84.3901849,2
+harvard,42.3750997,-71.1056157,1
+harvard t.h. chan school of public health,42.3602534,-71.0582912,1
+harvard university,42.3750997,-71.1056157,4
+haverford college,40.0131672,-75.2943516,1
+ibm,41.1330485,-73.71262371614495,1
+ihme,47.6038321,-122.3300624,1
+imperial college london,51.4953911,-0.1734069,1
+indian institute of technology kanpur,26.4609135,80.3217588,1
+indiana university,39.1670396,-86.5342881,2
+inria,49.6502698,2.4172616,1
+insurtechnix,52.3314292,-0.1847723,1
+intellectual ventures,47.6144219,-122.1923372,1
+internet2,38.8949855,-77.0365708,3
+iris passcal new mexico institute of mining and technology,34.0572858,-106.8930799,1
+kennesaw state university,34.0234337,-84.6154897,2
+kitware,42.8656325,-73.7709535,2
+lanl,35.8814009,-106.2989958,1
+lawrence berkeley national lab,44.3669375,-80.7272504,1
+lawrence berkeley national laboratory,44.3669375,-80.7272504,5
+lawrence livermore national lab,37.6820583,-121.7680531,1
+lbl,44.3669375,-80.7272504,1
+lehigh university,40.6178915,-75.3786521,1
+lewis & clark college,45.5202471,-122.6741949,2
+llnl,37.6820583,-121.7680531,2
+los alamos national laboratory,35.8814009,-106.2989958,6
+"mcgill university, montreal neurological institute",45.4972159,-73.6103642,1
+mcmaster university,43.2613342,-79.92108999923123,1
+michigan state university,42.7355416,-84.4852469,1
+microsoft,47.6694141,-122.1238767,1
+mit.,42.3750997,-71.1056157,1
+morgridge institute for research,43.074761,-89.3837613,1
+nasa exoplanet science institute / ipac-caltech,34.1476452,-118.1444779,1
+national center for atmospheric research,40.0149856,-105.2705456,1
+national center for supercomputing applications,40.1117174,-88.207301,2
+national institutes of health,38.9819845,-77.12423413116392,1
+national renewable energy lab,39.755543,-105.2210997,1
+national renewable energy laboratory,39.755543,-105.2210997,3
+"naval research lab, stennis",38.8949855,-77.0365708,1
+nbc news,40.7127281,-74.0060152,1
+ncar,40.0149856,-105.2705456,1
+ncsa,40.1117174,-88.207301,1
+new york university,40.7127281,-74.0060152,3
+nki,41.0514565,-73.9343141415317,1
+northwestern university,42.0447388,-87.6930459,5
+nvidia,37.2333253,-121.6846349,2
+oak ridge national laboratory,36.0103562,-84.2696449,4
+ohio supercomputer center,39.9622601,-83.0007065,1
+old dominion university,36.8462923,-76.2929252,1
+penn state,40.7944504,-77.8616386,3
+pennsylvania state university,40.81107215,-77.87708333635423,1
+perimeter institute for theoretical physics,43.466874,-80.524635,2
+pomona college,34.0966764,-117.7197785,1
+princeton university,40.3492744,-74.6592958,2
+purdue university,40.4258686,-86.9080655,1
+qualtrics & byu,40.2338438,-111.6585337,1
+rand corporation,46.724362,-75.559685,2
+san diego supercomputer center,32.7174209,-117.1627714,1
+sandia natioal laboratories,35.0841034,-106.6509851,1
+sandia national laboratories,35.0841034,-106.6509851,2
+sandia national labs,35.0841034,-106.6509851,1
+slac,37.4519671,-122.1779927,1
+slac national accelerator lab,37.4519671,-122.1779927,1
+slac/stanford,37.4519671,-122.1779927,1
+smithsonian astrophysical observatory,42.3750997,-71.1056157,1
+southern methodist university,32.7762719,-96.7968559,1
+stanford,37.427467,-122.1702445,4
+stanford graduate school of business,37.427467,-122.1702445,1
+stanford health care,37.427467,-122.1702445,1
+stanford university,37.427467,-122.1702445,22
+stanford university school of medicine,37.427467,-122.1702445,1
+"stanford university, slac",37.4519671,-122.1779927,1
+syf nepal,27.709913550000003,85.32474911622879,1
+temple university,39.9527237,-75.1635262,2
+the georgia institute of technology,33.7490987,-84.3901849,1
+the hospital for sick children,43.6534817,-79.3839347,1
+the molecular sciences software institute,37.2296566,-80.4136767,1
+the pennsylvania state university,40.7944504,-77.8616386,1
+the university of texas at austin,30.2711286,-97.7436995,1
+the university of washington,47.6038321,-122.3300624,1
+tulane university,29.9499323,-90.0701156,2
+u.s. epa & unc chapel hill,35.9131542,-79.05578,1
+ucla,34.0536909,-118.2427666,2
+uiuc,40.1164205,-88.2433829,1
+uiuc.edu,40.1164205,-88.2433829,1
+university at buffalo,42.8867166,-78.8783922,1
+university of arizona,32.1975976,-111.0808672,1
+"university of california, san diego",32.7174209,-117.1627714,1
+university of central florida,28.5421109,-81.3790304,2
+university of chicago,41.8755616,-87.6244212,1
+university of colorado at boulder,40.0149856,-105.2705456,1
+university of colorado boulder,40.0149856,-105.2705456,4
+"university of colorado, boulder",40.0149856,-105.2705456,1
+university of connecticut,41.8058137,-72.25423601022806,1
+university of delaware,39.6852191,-75.7508289,1
+university of dundee,56.4573119,-2.9758871,1
+university of florida,29.6519684,-82.3249846,1
+university of hawaii,21.304547,-157.8556764,1
+university of houston,29.7589382,-95.3676974,1
+university of illinois,40.1164205,-88.2433829,2
+university of illinois at urbana-champaign,40.1164205,-88.2433829,5
+"university of illinois, vocable communications, llc",40.1164205,-88.2433829,1
+university of iowa,41.6612561,-91.5299106,1
+university of kentucky,38.0464066,-84.4970393,2
+university of maryland,38.980666,-76.9369189,1
+"university of maryland, college park",38.980666,-76.9369189,1
+university of massachusetts,42.3685658,-72.505714,1
+university of memphis,35.1490215,-90.0516285,2
+university of michigan,42.2681569,-83.7312291,2
+university of minnesota,44.9772995,-93.2654692,2
+university of new hampshire,43.134564,-70.927048,1
+university of north carolina,35.9131542,-79.05578,1
+university of notre dame,41.704567749999995,-86.23822026017265,2
+university of pittsburgh,40.4416941,-79.9900861,3
+university of reading,51.45149525,-0.9836342499365378,1
+university of southern california,34.0536909,-118.2427666,1
+university of texas at austin,30.2711286,-97.7436995,1
+university of texas at san antonio,29.4246002,-98.4951405,1
+university of virginia,38.029306,-78.4766781,1
+university of washington,47.6038321,-122.3300624,5
+university of wisconsin-madison,43.074761,-89.3837613,2
+university of wisconsinâmadison,43.074761,-89.3837613,1
+university of wyoming,41.311367,-105.591101,1
+us naval research laboratory,38.8949855,-77.0365708,1
+usda-forest products laboratory,43.074761,-89.3837613,1
+uw madison,43.074761,-89.3837613,1
+vanderbilt university,36.1622296,-86.7743531,1
+vanderbilt university medical center,36.1622296,-86.7743531,1
+west virginia university institute of technology,38.1803833,-81.3284452,1
+western university,38.6476702,-107.0603126,1
+yale university,41.3082138,-72.9250518,4

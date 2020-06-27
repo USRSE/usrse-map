@@ -9,17 +9,11 @@ from geopy.geocoders import Nominatim
 
 # from uszipcode import SearchEngine
 
-import json
 import requests
-import shutil
 import sys
 
 import os
 import csv
-import requests
-import shutil
-import sys
-import tempfile
 import time
 
 here = os.path.dirname(os.path.abspath(__file__))
@@ -30,14 +24,6 @@ def get_filepath():
     """
     return os.path.join(os.path.dirname(here), "_data", "locations.csv")
 
-
-def get_lookup():
-    """get path for the locations lookup file.
-    """
-    filepath = os.path.join(os.path.dirname(here), "_data", "location-lookup.tsv")
-    if not os.path.exists(filepath):
-        sys.exit("Cannot find %s" % filepath)
-    return filepath
 
 def get_locations():
     """get path for the locations already found
@@ -76,9 +62,8 @@ def read_rows(filepath, newline="", delim=","):
 def main():
     """main entrypoint for the script to generate the locations file
     """
-
-    # A tsv download for just the worksheet with summary counts
-    sheet = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBn_kgBH8WoFmqdRJYdw8GrmfvjbdWIMYCk-yxelaE8aUO3J0rY19_wPOI9HHW0U0tc5Bg19uApPzx/pub?gid=145007959&single=true&output=tsv"
+    # A csv download for just the worksheet with city, state
+    sheet = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBn_kgBH8WoFmqdRJYdw8GrmfvjbdWIMYCk-yxelaE8aUO3J0rY19_wPOI9HHW0U0tc5Bg19uApPzx/pub?gid=1918148706&single=true&output=csv"
 
     # Ensure the response is okay
     response = requests.get(sheet)
@@ -93,42 +78,28 @@ def main():
     lines = response.text.split("\r\n")
 
     # Remove empty responses, header row, make all lowercase
-    lines = [x.lower().strip() for x in lines[1:] if x.strip()]
-
-    # Read the location lookup file
-    lookup_rows = read_rows(get_lookup(), delim="\t")
+    lines = [x.lower().strip('"').strip() for x in lines[1:] if x.strip()]
 
     # These locations we've already found
     locations = read_rows(get_locations(), delim=",")
-    assert locations[0] == ['name', 'lat', 'lng', 'count']
+    assert locations[0] == ["name", "lat", "lng", "count"]
     locations.pop(0)
-    locations = {x[0]:x[1:] for x in locations}
-
-    # Remove header (should have name and city-state)
-    assert lookup_rows[0][0] == "name"
-    assert lookup_rows[0][1] == "city-state"
-    lookup_rows.pop(0)
-
-    # Create lookup dictionary
-    lookup = {x[0]: x[1] for x in lookup_rows}
+    locations = {x[0]: x[1:] for x in locations}
 
     # Create geolocator and search engine
     geolocator = Nominatim(user_agent="us-rse.org")
     # search = SearchEngine(simple_zipcode=True)
 
     # Get lats/long for each location, keep track of missing
-    latlong = dict()
     missing = set()
-    for name, address in lookup.items():
+    for address in lines:
 
         # Skip remote addresses
-        if address == "remote":
+        if address in ["remote", "", None]:
             continue
 
-        if name in locations:
-            latlong[name] = locations[name]
-        else:
-            print("Looking up %s in %s" % (name, address))
+        if address not in locations:
+            print("Looking up %s" % address)
             # Second shot, try for international address
 
             location = get_location(geolocator, address)
@@ -137,20 +108,18 @@ def main():
             if location:
                 lat = location.latitude
                 lng = location.longitude
-                latlong[name] = [lat, lng]
+                locations[address] = [lat, lng]
             else:
-                print("%s: %s is not found with geocoding." % (name, address))
-                missing.add(name)
+                print("%s is not found with geocoding." % address)
+                missing.add(address)
 
     # Keep track of locations not known, counts known
     unknown = set()
     counts = {}
 
-    # Keep sorted
-    lines.sort()
-
+    # Now go through lines, but include each unique
     for line in lines:
-        if line not in lookup:
+        if line not in locations and line != "remote":
             unknown.add(line)
             continue
         if line not in counts:
@@ -161,10 +130,15 @@ def main():
     print("UNKNOWN:\n %s\n" % "\n".join(unknown))
     print("MISSING:\n %s" % "\n".join(missing))
 
+    # Sort counts
+    counts = {
+        k: v for k, v in sorted(counts.items(), reverse=True, key=lambda item: item[1])
+    }
+
     # Generate list of names with latitude and longitude for each
     # [name, lat, long, count]
     seen = set()
-    locations = [["name", "lat", "lng", "count"]]
+    updated = [["name", "lat", "lng", "count"]]
     for name in lines:
 
         if name in seen:
@@ -173,10 +147,10 @@ def main():
         seen.add(name)
 
         # We found a location (lat long) for the place!
-        if name in latlong and name in counts:
-            locations.append([name, latlong[name][0], latlong[name][1], counts[name]])
+        if name in locations and name in counts:
+            updated.append([name, locations[name][0], locations[name][1], counts[name]])
 
-    print("Found a total of %s locations, each with a count!" % (len(locations) - 1))
+    print("Found a total of %s locations, each with a count!" % (len(updated) - 1))
 
     # We will write results to this file
     filepath = get_filepath()
@@ -184,7 +158,7 @@ def main():
     # Write the new file
     with open(filepath, "w", newline="") as outfile:
         writer = csv.writer(outfile, delimiter=",")
-        [writer.writerow(row) for row in locations]
+        [writer.writerow(row) for row in updated]
 
     print("Wrote locations and counts to %s." % filepath)
 
