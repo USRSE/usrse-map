@@ -17,7 +17,7 @@ jobs:
         sudo apt-get update && sudo apt-get install -y python3 python3-pip wget
         sudo pip3 install -r requirements.txt
         # Ensure using a particular version
-        wget -O scripts/_update_map.py https://raw.githubusercontent.com/USRSE/usrse-map/cf5ba7fb1cf2101af00953820d0e30b6164e9630/scripts/update_map.py
+        wget -O scripts/_update_map.py https://raw.githubusercontent.com/USRSE/usrse-map/32a731b56098a7b3f64d15072f58659174c944ff/scripts/update_map.py
         chmod +x scripts/_update_map.py
         python3 scripts/_update_map.py
 
