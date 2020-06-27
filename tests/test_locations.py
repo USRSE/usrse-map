@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 # Author @vsoch, Written February 2020
-# Read in the locations.csv and location-lookup.tsv files to validate each entry
+# Updated June 2020, removing locations lookup testing (no longer used)
+# Read in the locations.csv to validate each entry
 
 import csv
 import os
@@ -22,73 +23,6 @@ def read_rows(filepath, newline="", delim=","):
         reader = csv.reader(infile, delimiter=delim)
         data = [row for row in reader]
     return data
-
-
-def get_sheet_data():
-    """return Google sheets institution lookup
-    """
-    sheet = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBn_kgBH8WoFmqdRJYdw8GrmfvjbdWIMYCk-yxelaE8aUO3J0rY19_wPOI9HHW0U0tc5Bg19uApPzx/pub?gid=145007959&single=true&output=tsv"
-
-    # Ensure the response is okay
-    response = requests.get(sheet)
-    if response.status_code != 200:
-        print(
-            "Error with getting sheet, response code %s: %s"
-            % (response.status_code, response.reason)
-        )
-        sys.exit(1)
-
-    # Split lines by all sorts of fugly carriage returns
-    lines = response.text.split("\r\n")
-
-    # Remove empty responses, header row, make all lowercase
-    return [x.lower().strip() for x in lines[1:] if x.strip()]
-
-
-def test_locations_lookup(tmp_path):
-    """The locations-lookup.tsv file is a tab separated file of locations.
-       Specifically, we need to ensure that it's in alphabetical order,
-       and each has a city state that returns a location.
-       The only other option is for a location to be remote, in which case,
-       it is skipped. 
-    """
-    filepath = os.path.join(os.path.dirname(here), "_data", "location-lookup.tsv")
-    assert os.path.exists(filepath)
-    lines = read_rows(filepath, delim="\t")
-
-    # These are to skip, don't know what they mean
-    skips = ["llnsâ\\x80¯llc"]
-
-    # 1. Ensure header is correct
-    print("1. Testing for correct header with 'name' and 'city-state'")
-    assert lines[0][0] == "name"
-    assert lines[0][1] == "city-state"
-
-    # 2. must be all lowercase
-    print("2. Names must be all lowercase")
-    for line in lines:
-        assert line[0] == line[0].lower()
-
-    # 3. Ensure that each location has a lat and long
-    print("4. Testing that each location has a latitude and longitude.")
-    geolocator = Nominatim(user_agent="us-rse.org")
-    for line in lines[1:]:
-        name = line[0]
-        address = line[1]
-        print("Testing %s" % name)
-
-        if name in skips:
-            continue
-
-        if address == "remote":
-            print("%s is considered remote." % address)
-            continue
-
-        location = geolocator.geocode(address)
-        sleep(1.5)
-        assert location
-
-    print("*Use preview on CircleCI to ensure that locations found are correct*")
 
 
 def test_locations(tmp_path):
