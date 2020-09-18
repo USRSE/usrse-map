@@ -23,6 +23,7 @@ permalink: /
     }
   .marker {
     background-color: #99266e;
+    opacity: 0.5;
     background-size: cover;
     border-radius: 50%;
     cursor: pointer;
