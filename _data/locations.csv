@@ -2,22 +2,22 @@ name,lat,lng,count
 "pasadena, california",34.1476452,-118.1444779,5
 "evanston, il",42.0447388,-87.6930459,5
 "new haven, ct",41.3082138,-72.9250518,5
-"providence, ri",41.8239891,-71.4128343,10
+"providence, ri",41.8239891,-71.4128343,11
 "stanford, california",37.427467,-122.1702445,27
 "pittsburgh, pa",40.4416941,-79.9900861,4
 "state college, pa",40.7944504,-77.8616386,4
 "east lansing, mi",42.7355416,-84.4852469,3
 "princeton, nj",40.3492744,-74.6592958,4
 "portland, or",45.5202471,-122.6741949,2
-"buffalo, ny",42.8867166,-78.8783922,1
+"buffalo, ny",42.8867166,-78.8783922,2
 "austin, tx",30.2711286,-97.7436995,2
 "san antonio, tx",29.4246002,-98.4951405,1
 "berkeley, california",37.8708393,-122.2728639,9
 "lexington, ky",38.0464066,-84.4970393,2
 "santa clara, california",37.2333253,-121.6846349,3
-"atlanta, ga",33.7490987,-84.3901849,4
+"atlanta, ga",33.7490987,-84.3901849,5
 "chapel hill, nc",35.9131542,-79.05578,2
-"los alamos, nm",35.8814009,-106.2989958,7
+"los alamos, nm",35.8814009,-106.2989958,8
 "albuquerque, nm",35.0841034,-106.6509851,5
 "notre dame, in",41.704567749999995,-86.23822026017265,2
 "phoenix, az",33.4484367,-112.0741417,2
@@ -28,7 +28,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "kanpur, india",26.4609135,80.3217588,1
 "kathmandu 44600, nepal",27.708317,85.3205817,1
 "south kensington, london sw7 2bu, united kingdom",51.4953911,-0.1734069,1
-"chicago, il",41.8755616,-87.6244212,3
+"chicago, il",41.8755616,-87.6244212,4
 "cambridge, ma",42.3750997,-71.1056157,8
 "iowa city, ia",41.6612561,-91.5299106,1
 "blacksburg, va",37.2296566,-80.4136767,1
@@ -39,25 +39,25 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "newark, de",39.6852191,-75.7508289,1
 "bloomington, in",39.1670396,-86.5342881,2
 "bellevue, wa",47.6144219,-122.1923372,1
-"oak ridge, tn",36.0103562,-84.2696449,10
-"urbana, il",40.1117174,-88.207301,10
-"seattle, wa",47.6038321,-122.3300624,8
+"oak ridge, tn",36.0103562,-84.2696449,11
+"urbana, il",40.1117174,-88.207301,11
+"seattle, wa",47.6038321,-122.3300624,9
 "minneapolis, mn",44.9772995,-93.2654692,2
 "golden, co",39.755543,-105.2210997,5
-"madison, wi",43.074761,-89.3837613,6
-"houston, tx",29.7589382,-95.3676974,1
-"charlottesville, va",38.029306,-78.4766781,1
+"madison, wi",43.074761,-89.3837613,8
+"houston, tx",29.7589382,-95.3676974,2
+"charlottesville, va",38.029306,-78.4766781,2
 "livermore, california",37.6820583,-121.7680531,6
 "huntingdon, united kingdom",52.3314292,-0.1847723,1
 "clifton park, ny",42.8656325,-73.7709535,2
 "lemont, il",40.8106174,-77.8183337,3
 "clemson, sc",34.6850749,-82.8364111,2
 "philadelphia, pa",39.9527237,-75.1635262,3
-"laramie, wy",41.311367,-105.591101,1
+"laramie, wy",41.311367,-105.591101,2
 "boise, id",43.6166163,-116.200886,2
-"bethesda, md",38.9819845,-77.12423413116392,1
+"bethesda, md",38.9819845,-77.12423413116392,2
 "toronto, canada",43.6534817,-79.3839347,1
-"champaign, il",40.1164205,-88.2433829,4
+"champaign, il",40.1164205,-88.2433829,5
 "memphis, tn",35.1490215,-90.0516285,2
 "cleveland, ohio",41.5051613,-81.6934446,1
 "dallas, tx",32.7762719,-96.7968559,3
@@ -81,7 +81,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "montreal, canada",45.4972159,-73.6103642,1
 "menlo park, california",37.4519671,-122.1779927,6
 "nethergate, dundee dd1 4hn, united kingdom",56.4573119,-2.9758871,1
-"honolulu, hi",21.304547,-157.8556764,1
+"honolulu, hi",21.304547,-157.8556764,2
 "durham, nh",43.134564,-70.927048,1
 "san diego, california",32.7174209,-117.1627714,2
 "1280 main st w, hamilton, on l8s 4l8, canada",43.2613342,-79.92108999923123,1
@@ -129,8 +129,19 @@ swansea,51.6195955,-3.9459248,1
 "lubbock, tx",33.5635206,-101.879336,1
 "kennesaw, ga",34.0234337,-84.6154897,1
 "fairfax, va",38.8462236,-77.3063733,1
-"la jolla, california",32.83259,-117.2716839,1
+"la jolla, california",32.83259,-117.2716839,2
 "redwood city, california",37.4863239,-122.2325233,1
 "tucson, az",32.2228765,-110.9748477,1
 "arlington, va",38.8903961,-77.0841585,1
 "lenoir city, tn",35.7972998,-84.2560299,1
+"pullman, wa",46.7304268,-117.173895,1
+"newark, delaware",39.6852191,-75.7508289,1
+"columbia, md",39.193919550000004,-76.87477229012376,1
+kennesaw ga,34.0234337,-84.6154897,1
+"baltimore, md",39.2908816,-76.610759,1
+copenhagen,55.6867243,12.5700724,1
+"new brunswick, nj",40.4862174,-74.4518173,1
+"los alamos, new mexico",35.8814009,-106.2989958,1
+"palo alto, california",37.4443293,-122.1598465,1
+"salt lake city, ut",40.7596198,-111.8867975,1
+"holyoke, ma",42.2044693,-72.6410623,1
