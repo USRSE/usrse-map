@@ -1,7 +1,7 @@
 name,lat,lng,count
 "pasadena, california",34.1476452,-118.1444779,5
 "evanston, il",42.0447388,-87.6930459,5
-"new haven, ct",41.3082138,-72.9250518,5
+"new haven, ct",41.3082138,-72.9250518,6
 "providence, ri",41.8239891,-71.4128343,11
 "stanford, california",37.427467,-122.1702445,27
 "pittsburgh, pa",40.4416941,-79.9900861,4
@@ -18,7 +18,7 @@ name,lat,lng,count
 "atlanta, ga",33.7490987,-84.3901849,5
 "chapel hill, nc",35.9131542,-79.05578,2
 "los alamos, nm",35.8814009,-106.2989958,8
-"albuquerque, nm",35.0841034,-106.6509851,5
+"albuquerque, nm",35.0841034,-106.6509851,6
 "notre dame, in",41.704567749999995,-86.23822026017265,2
 "phoenix, az",33.4484367,-112.0741417,2
 "armonk, ny",41.1330485,-73.71262371614495,1
@@ -31,15 +31,15 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "chicago, il",41.8755616,-87.6244212,4
 "cambridge, ma",42.3750997,-71.1056157,8
 "iowa city, ia",41.6612561,-91.5299106,1
-"blacksburg, va",37.2296566,-80.4136767,1
-"new york city, ny",40.7127281,-74.0060152,7
+"blacksburg, va",37.2296566,-80.4136767,2
+"new york city, ny",40.7127281,-74.0060152,8
 "reading, united kingdom",51.456659,-0.9696512,1
 "los angeles, california",34.0536909,-118.2427666,2
 "washington, dc",38.8949855,-77.0365708,8
 "newark, de",39.6852191,-75.7508289,1
 "bloomington, in",39.1670396,-86.5342881,2
 "bellevue, wa",47.6144219,-122.1923372,1
-"oak ridge, tn",36.0103562,-84.2696449,11
+"oak ridge, tn",36.0103562,-84.2696449,12
 "urbana, il",40.1117174,-88.207301,11
 "seattle, wa",47.6038321,-122.3300624,9
 "minneapolis, mn",44.9772995,-93.2654692,2
@@ -79,11 +79,11 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "tuscon, az",32.1975976,-111.0808672,1
 "ann arbor, mi",42.2681569,-83.7312291,2
 "montreal, canada",45.4972159,-73.6103642,1
-"menlo park, california",37.4519671,-122.1779927,6
+"menlo park, california",37.4519671,-122.1779927,7
 "nethergate, dundee dd1 4hn, united kingdom",56.4573119,-2.9758871,1
 "honolulu, hi",21.304547,-157.8556764,2
 "durham, nh",43.134564,-70.927048,1
-"san diego, california",32.7174209,-117.1627714,2
+"san diego, california",32.7174209,-117.1627714,3
 "1280 main st w, hamilton, on l8s 4l8, canada",43.2613342,-79.92108999923123,1
 "boston, ma",42.3602534,-71.0582912,4
 "seattle, washington",47.6038321,-122.3300624,1
@@ -145,3 +145,6 @@ copenhagen,55.6867243,12.5700724,1
 "palo alto, california",37.4443293,-122.1598465,1
 "salt lake city, ut",40.7596198,-111.8867975,1
 "holyoke, ma",42.2044693,-72.6410623,1
+"scottsdale, az",33.4942189,-111.9260184,1
+"mountain view, california",37.3893889,-122.0832101,1
+"st. louis, mo usa",38.6268039,-90.1994097,1
