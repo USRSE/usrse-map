@@ -41,6 +41,26 @@ Tests are run in a separate workflow at [.github/workflows/main.yml](.github/wor
 Since a contribution will come down to updating the list of locations, we ensure that
 the fields and types are represented correctly.
 
+## Google Sheet Issues
+
+The script [scripts/update_map.py](scripts/update_map.py) downloads a static export of a Google Sheet,
+which should be updating to generate a list of locations (cities and states) for generation here.
+This sheet that is labeled "Locations export for website." The cells are supposed to automatically
+update since they have been pre-populated with formulas, but in practice it often doesn't automatically 
+populate from the first, despite the formula being there. When this happens:
+
+1. You'll see a PR here that is empty. You should close and delete the branch
+2. You should open up the sheet, and click and drag down the last cell that is populated with a city/state to populate a new chunk of rows, up until the number of entries we have in the first (private) sheet with full informaiton.
+3. You should glance over the new names and look for spelling errors, or any other formatting issues. You can then go back to the first sheet to fix names. Other than spelling, we always need to change "CA" to "California" because most CA entries will show up somewhere in Canada.
+4. Once the sheet looks good, you can click the "Actions" tab here to re-run the job.
+
+The pull request should open again, with changes that time, and then you can approve or close and delete and branch and continue tweaking the sheet and running the action until it looks good. 
+
+### How could it be improved?
+
+For the long term, it might be less error prone to somehow use the Sheets API instead of the interface,
+or to debug why the sheet doesn't auto-populate with correct data as it should.
+
 <!--- ## Join us! --->
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScBQ6AYpYYK2wL21egcaVvH0ZEvtShU-0s-XbqnY3okUsyIZw/viewform">
