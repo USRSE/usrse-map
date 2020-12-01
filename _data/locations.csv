@@ -4,7 +4,7 @@ name,lat,lng,count
 "new haven, ct",41.3082138,-72.9250518,6
 "providence, ri",41.8239891,-71.4128343,11
 "stanford, california",37.427467,-122.1702445,27
-"pittsburgh, pa",40.4416941,-79.9900861,4
+"pittsburgh, pa",40.4416941,-79.9900861,5
 "state college, pa",40.7944504,-77.8616386,4
 "east lansing, mi",42.7355416,-84.4852469,3
 "princeton, nj",40.3492744,-74.6592958,4
@@ -12,13 +12,13 @@ name,lat,lng,count
 "buffalo, ny",42.8867166,-78.8783922,2
 "austin, tx",30.2711286,-97.7436995,2
 "san antonio, tx",29.4246002,-98.4951405,1
-"berkeley, california",37.8708393,-122.2728639,9
+"berkeley, california",37.8708393,-122.2728639,10
 "lexington, ky",38.0464066,-84.4970393,2
 "santa clara, california",37.2333253,-121.6846349,3
-"atlanta, ga",33.7490987,-84.3901849,5
+"atlanta, ga",33.7490987,-84.3901849,6
 "chapel hill, nc",35.9131542,-79.05578,2
-"los alamos, nm",35.8814009,-106.2989958,8
-"albuquerque, nm",35.0841034,-106.6509851,6
+"los alamos, nm",35.8814009,-106.2989958,9
+"albuquerque, nm",35.0841034,-106.6509851,8
 "notre dame, in",41.704567749999995,-86.23822026017265,2
 "phoenix, az",33.4484367,-112.0741417,2
 "armonk, ny",41.1330485,-73.71262371614495,1
@@ -28,29 +28,29 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "kanpur, india",26.4609135,80.3217588,1
 "kathmandu 44600, nepal",27.708317,85.3205817,1
 "south kensington, london sw7 2bu, united kingdom",51.4953911,-0.1734069,1
-"chicago, il",41.8755616,-87.6244212,4
-"cambridge, ma",42.3750997,-71.1056157,8
+"chicago, il",41.8755616,-87.6244212,7
+"cambridge, ma",42.3750997,-71.1056157,9
 "iowa city, ia",41.6612561,-91.5299106,1
 "blacksburg, va",37.2296566,-80.4136767,2
-"new york city, ny",40.7127281,-74.0060152,8
+"new york city, ny",40.7127281,-74.0060152,9
 "reading, united kingdom",51.456659,-0.9696512,1
 "los angeles, california",34.0536909,-118.2427666,2
 "washington, dc",38.8949855,-77.0365708,8
 "newark, de",39.6852191,-75.7508289,1
 "bloomington, in",39.1670396,-86.5342881,2
 "bellevue, wa",47.6144219,-122.1923372,1
-"oak ridge, tn",36.0103562,-84.2696449,12
-"urbana, il",40.1117174,-88.207301,11
-"seattle, wa",47.6038321,-122.3300624,9
+"oak ridge, tn",36.0103562,-84.2696449,14
+"urbana, il",40.1117174,-88.207301,12
+"seattle, wa",47.6038321,-122.3300624,11
 "minneapolis, mn",44.9772995,-93.2654692,2
-"golden, co",39.755543,-105.2210997,5
+"golden, co",39.755543,-105.2210997,6
 "madison, wi",43.074761,-89.3837613,8
 "houston, tx",29.7589382,-95.3676974,2
 "charlottesville, va",38.029306,-78.4766781,2
-"livermore, california",37.6820583,-121.7680531,6
+"livermore, california",37.6820583,-121.7680531,7
 "huntingdon, united kingdom",52.3314292,-0.1847723,1
 "clifton park, ny",42.8656325,-73.7709535,2
-"lemont, il",40.8106174,-77.8183337,3
+"lemont, il",40.8106174,-77.8183337,5
 "clemson, sc",34.6850749,-82.8364111,2
 "philadelphia, pa",39.9527237,-75.1635262,3
 "laramie, wy",41.311367,-105.591101,2
@@ -77,7 +77,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "orange, california",33.7500378,-117.8704931,1
 "nashville, tn",36.1622296,-86.7743531,2
 "tuscon, az",32.1975976,-111.0808672,1
-"ann arbor, mi",42.2681569,-83.7312291,2
+"ann arbor, mi",42.2681569,-83.7312291,3
 "montreal, canada",45.4972159,-73.6103642,1
 "menlo park, california",37.4519671,-122.1779927,7
 "nethergate, dundee dd1 4hn, united kingdom",56.4573119,-2.9758871,1
@@ -85,7 +85,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "durham, nh",43.134564,-70.927048,1
 "san diego, california",32.7174209,-117.1627714,3
 "1280 main st w, hamilton, on l8s 4l8, canada",43.2613342,-79.92108999923123,1
-"boston, ma",42.3602534,-71.0582912,4
+"boston, ma",42.3602534,-71.0582912,6
 "seattle, washington",47.6038321,-122.3300624,1
 "kennesaw, georgia",34.0234337,-84.6154897,2
 "bethlehem, pennsylvania",40.6178915,-75.3786521,1
@@ -112,7 +112,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 islamabad,33.6938118,73.0651511,1
 "reykjavik, iceland",64.145981,-21.9422367,1
 "porto alegre, rs, brazil",-30.0324999,-51.2303767,1
-"denver, co",39.7392364,-104.9848623,1
+"denver, co",39.7392364,-104.9848623,2
 "west lafayette, indiana",40.4258686,-86.9080655,2
 "omaha, nebraska",41.2587459,-95.9383758,1
 "weatherford, ok",35.5261633,-98.7075744,1
@@ -138,7 +138,7 @@ swansea,51.6195955,-3.9459248,1
 "newark, delaware",39.6852191,-75.7508289,1
 "columbia, md",39.193919550000004,-76.87477229012376,1
 kennesaw ga,34.0234337,-84.6154897,1
-"baltimore, md",39.2908816,-76.610759,1
+"baltimore, md",39.2908816,-76.610759,2
 copenhagen,55.6867243,12.5700724,1
 "new brunswick, nj",40.4862174,-74.4518173,1
 "los alamos, new mexico",35.8814009,-106.2989958,1
@@ -147,4 +147,8 @@ copenhagen,55.6867243,12.5700724,1
 "holyoke, ma",42.2044693,-72.6410623,1
 "scottsdale, az",33.4942189,-111.9260184,1
 "mountain view, california",37.3893889,-122.0832101,1
-"st. louis, mo usa",38.6268039,-90.1994097,1
+"st. louis, mo",38.6529545,-90.24111656024635,1
+"berlin, germany",52.5170365,13.3888599,1
+new york,40.7127281,-74.0060152,2
+"naperville, il",41.7728699,-88.1479278,1
+"new orleans, la",29.9499323,-90.0701156,1
