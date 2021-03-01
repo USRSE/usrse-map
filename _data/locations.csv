@@ -1,7 +1,7 @@
 name,lat,lng,count
 "pasadena, california, us",34.1476452,-118.1444779,5
 "evanston, illinois, us",42.0447388,-87.6930459,5
-"new haven, connecticut, us",41.298434349999994,-72.93102342707913,6
+"new haven, connecticut, us",41.298434349999994,-72.93102342707913,7
 "providence, rhode island, us",41.8239891,-71.4128343,11
 "stanford, california, us",37.426540700000004,-122.17029258409187,28
 "pittsburgh, pennsylvania, us",40.4416941,-79.9900861,8
@@ -10,9 +10,9 @@ name,lat,lng,count
 "princeton, new jersey, us",40.3492744,-74.6592958,6
 "portland, oregon, us",45.5202471,-122.6741949,3
 "buffalo, new york, us",42.8867166,-78.8783922,2
-"austin, texas, us",30.2711286,-97.7436995,2
+"austin, texas, us",30.2711286,-97.7436995,3
 "san antonio, texas, us",29.4246002,-98.4951405,1
-"berkeley, california, us",37.8708393,-122.2728639,11
+"berkeley, california, us",37.8708393,-122.2728639,12
 "lexington, kentucky, us",38.0464066,-84.4970393,2
 "santa clara, california, us",37.2333253,-121.6846349,4
 "atlanta, georgia, us",33.7489924,-84.3902644,6
@@ -21,13 +21,13 @@ name,lat,lng,count
 "notre dame, indiana, us",41.704567749999995,-86.23822026017265,2
 "phoenix, arizona, us",33.4484367,-112.0741417,3
 "armonk, new york, us",41.1330485,-73.71262371614495,1
-"new york, new york, us",40.7127281,-74.0060152,19
+"new york, new york, us",40.7127281,-74.0060152,20
 caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "huntsville, alabama, us",34.729847,-86.5859011,1
 "kanpur, india",26.4609135,80.3217588,1
 "kathmandu 44600, nepal",27.708317,85.3205817,1
 "london, united kingdom",51.5073219,-0.1276474,2
-"chicago, illinois, us",41.8755616,-87.6244212,8
+"chicago, illinois, us",41.8755616,-87.6244212,9
 "cambridge, massachusetts, us",42.3750997,-71.1056157,10
 "iowa city, iowa, us",41.6612561,-91.5299106,1
 "blacksburg, virginia, us",37.2296566,-80.4136767,2
@@ -37,11 +37,11 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "newark, delaware, us",39.6852191,-75.7508289,2
 "bloomington, indiana, us",39.1670396,-86.5342881,2
 "bellevue, washington, us",47.6144219,-122.1923372,1
-"oak ridge, tennessee, us",36.0103562,-84.2696449,14
+"oak ridge, tennessee, us",36.0103562,-84.2696449,15
 "urbana, illinois, us",40.1117174,-88.207301,12
-"seattle, washington, us",47.6038321,-122.3300624,14
+"seattle, washington, us",47.6038321,-122.3300624,15
 "minneapolis, minnesota, us",44.9772995,-93.2654692,2
-"golden, colorado, us",39.743310699999995,-105.21250036061394,7
+"golden, colorado, us",39.743310699999995,-105.21250036061394,8
 "madison, wisconsin, us",43.074761,-89.3837613,8
 "houston, texas, us",29.7589382,-95.3676974,3
 "charlottesville, virginia, us",38.029306,-78.4766781,2
@@ -49,8 +49,8 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "huntingdon, united kingdom",52.3314292,-0.1847723,1
 "clifton park, new york, us",42.8656325,-73.7709535,2
 "lemont, illinois, us",41.6737149,-88.0016263,5
-"clemson, south carolina, us",34.6850749,-82.8364111,2
-"philadelphia, pennsylvania, us",39.9527237,-75.1635262,3
+"clemson, south carolina, us",34.6850749,-82.8364111,3
+"philadelphia, pennsylvania, us",39.9527237,-75.1635262,4
 "laramie, wyoming, us",41.311367,-105.591101,2
 "boise, idaho, us",43.6166163,-116.200886,2
 "bethesda, maryland, us",38.9819845,-77.12423413116392,2
@@ -67,7 +67,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "waterloo, ontario, canada, n2l 2y5",43.466874,-80.524635,2
 "college park, maryland, us",38.980666,-76.9369189,2
 "dartmouth, new hampshire, us",43.7031165,-72.2898092,1
-"gainesville, florida, us",29.6519684,-82.3249846,1
+"gainesville, florida, us",29.6519684,-82.3249846,2
 "boulder, colorado, us",40.0149856,-105.2705456,13
 "amherst, massachusetts, us",42.3685658,-72.505714,1
 "oakton, virginia, us",38.896729,-77.29866437219505,1
@@ -123,7 +123,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "fairfax, virginia, us",38.8462236,-77.3063733,1
 "la jolla, california, us",32.83259,-117.2716839,2
 "redwood city, california, us",37.4863239,-122.232523,1
-"tucson, arizona, us",32.2228765,-110.9748477,1
+"tucson, arizona, us",32.2228765,-110.9748477,2
 "arlington, virginia, us",38.8807617,-77.10769081477989,1
 "lenoir city, tennessee, us",35.7972998,-84.2560299,1
 "pullman, washington, us",46.7304268,-117.173895,1
@@ -144,7 +144,7 @@ copenhagen,55.6867243,12.5700724,1
 "belmont, massachusetts, us",42.3959296,-71.1786655,1
 "riverside, california, us",33.7219991,-116.0372472,1
 "idaho falls, idaho, us",43.4935245,-112.0400919,1
-"chapel hill, north carolina, us",35.9131542,-79.05578,1
+"chapel hill, north carolina, us",35.9131542,-79.05578,2
 "hadley, massachusetts, us",42.35637,-72.5620883,1
 "budapest, hungary",47.48138955,19.14607278448202,1
 "mohammadpur, bangladesh",23.7629377,90.3658769,1
@@ -154,3 +154,8 @@ copenhagen,55.6867243,12.5700724,1
 esch-sur-alzette,49.4959628,5.9850306,1
 "san pedro pochutla, oax, mexico",15.7914326,-96.43006673475244,1
 "miami, florida, us",25.7741728,-80.19362,1
+"aurora, colorado, us",39.729432,-104.8319196,1
+india,22.3511148,78.6677428,1
+"detroit, michigan, us",42.3315509,-83.0466403,1
+"cape may, new jersey, us",38.933431,-74.9214226,1
+"norwich, uk",52.628606,1.29227,1
