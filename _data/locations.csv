@@ -10,16 +10,16 @@ name,lat,lng,count
 "princeton, new jersey, us",40.3492744,-74.6592958,6
 "portland, oregon, us",45.5202471,-122.6741949,3
 "buffalo, new york, us",42.8867166,-78.8783922,2
-"austin, texas, us",30.2711286,-97.7436995,3
+"austin, texas, us",30.2711286,-97.7436995,4
 "san antonio, texas, us",29.4246002,-98.4951405,1
-"berkeley, california, us",37.8708393,-122.2728639,12
+"berkeley, california, us",37.8708393,-122.2728639,13
 "lexington, kentucky, us",38.0464066,-84.4970393,2
 "santa clara, california, us",37.2333253,-121.6846349,4
 "atlanta, georgia, us",33.7489924,-84.3902644,6
 "los alamos, new mexico, us",35.8814009,-106.2989958,10
 "albuquerque, new mexico, us",35.0841034,-106.6509851,9
 "notre dame, indiana, us",41.704567749999995,-86.23822026017265,2
-"phoenix, arizona, us",33.4484367,-112.0741417,3
+"phoenix, arizona, us",33.4484367,-112.0741417,4
 "armonk, new york, us",41.1330485,-73.71262371614495,1
 "new york, new york, us",40.7127281,-74.0060152,20
 caulfield east vic 3145 australia,-37.881276,145.0420847,1
@@ -27,10 +27,10 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "kanpur, india",26.4609135,80.3217588,1
 "kathmandu 44600, nepal",27.708317,85.3205817,1
 "london, united kingdom",51.5073219,-0.1276474,2
-"chicago, illinois, us",41.8755616,-87.6244212,9
+"chicago, illinois, us",41.8755616,-87.6244212,11
 "cambridge, massachusetts, us",42.3750997,-71.1056157,10
 "iowa city, iowa, us",41.6612561,-91.5299106,1
-"blacksburg, virginia, us",37.2296566,-80.4136767,2
+"blacksburg, virginia, us",37.2296566,-80.4136767,4
 "reading, united kingdom",51.456659,-0.9696512,1
 "los angeles, california, us",34.0536909,-118.242766,3
 "washington, dc, us",38.8949924,-77.0365581,8
@@ -39,7 +39,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "bellevue, washington, us",47.6144219,-122.1923372,1
 "oak ridge, tennessee, us",36.0103562,-84.2696449,15
 "urbana, illinois, us",40.1117174,-88.207301,12
-"seattle, washington, us",47.6038321,-122.3300624,15
+"seattle, washington, us",47.6038321,-122.3300624,18
 "minneapolis, minnesota, us",44.9772995,-93.2654692,2
 "golden, colorado, us",39.743310699999995,-105.21250036061394,8
 "madison, wisconsin, us",43.074761,-89.3837613,8
@@ -47,7 +47,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "charlottesville, virginia, us",38.029306,-78.4766781,2
 "livermore, california, us",37.6820583,-121.7680531,8
 "huntingdon, united kingdom",52.3314292,-0.1847723,1
-"clifton park, new york, us",42.8656325,-73.7709535,2
+"clifton park, new york, us",42.8656325,-73.7709535,3
 "lemont, illinois, us",41.6737149,-88.0016263,5
 "clemson, south carolina, us",34.6850749,-82.8364111,3
 "philadelphia, pennsylvania, us",39.9527237,-75.1635262,4
@@ -68,7 +68,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "college park, maryland, us",38.980666,-76.9369189,2
 "dartmouth, new hampshire, us",43.7031165,-72.2898092,1
 "gainesville, florida, us",29.6519684,-82.3249846,2
-"boulder, colorado, us",40.0149856,-105.2705456,13
+"boulder, colorado, us",40.0149856,-105.2705456,14
 "amherst, massachusetts, us",42.3685658,-72.505714,1
 "oakton, virginia, us",38.896729,-77.29866437219505,1
 "socorro, new mexico, us",34.0572858,-106.8930799,1
@@ -77,7 +77,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "nashville, tennessee, us",36.1622296,-86.7743531,2
 "pasadena, ca, us",34.1476452,-118.1444779,1
 "tuscon, arizona, us",32.1952802,-110.9792506,1
-"ann arbor, michigan, us",42.2681569,-83.7312291,5
+"ann arbor, michigan, us",42.2681569,-83.7312291,6
 "montreal, canada",45.4972159,-73.6103642,1
 "menlo park, california, us",37.4519671,-122.1779927,7
 "nethergate, dundee dd1 4hn, united kingdom",56.4573119,-2.9758871,1
@@ -108,7 +108,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "islamabad, pakistan",33.6938118,73.0651511,1
 "reykjavik, iceland",64.145981,-21.9422367,1
 "porto alegre, rs, brazil",-30.0324999,-51.2303767,1
-"denver, colorado, us",39.7392364,-104.9848623,2
+"denver, colorado, us",39.7392364,-104.9848623,4
 "omaha, nebraska, us",41.2587459,-95.9383758,1
 "weatherford, oklahoma, us",35.5261633,-98.7075744,1
 "tuscaloosa, alabama, us",33.2095614,-87.5675258,1
@@ -130,7 +130,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "columbia, maryland, us",39.193919550000004,-76.87477229012376,1
 "baltimore, maryland, us",39.2908816,-76.610759,3
 copenhagen,55.6867243,12.5700724,1
-"new brunswick, new jersey, us",40.4862174,-74.4518173,1
+"new brunswick, new jersey, us",40.4862174,-74.4518173,2
 "palo alto, california, us",37.4443293,-122.1598465,1
 "salt lake city, utah, us",40.7596198,-111.8867975,1
 "holyoke, massachusetts, us",42.2071434,-72.60765,1
@@ -140,7 +140,7 @@ copenhagen,55.6867243,12.5700724,1
 "berlin, germany",52.5170365,13.3888599,1
 "naperville, illinois, us",41.7728699,-88.1479278,1
 "kyiv, ukraine",50.4500336,30.5241361,1
-"tempe, arizona, us",33.4255056,-111.9400125,3
+"tempe, arizona, us",33.4255056,-111.9400125,4
 "belmont, massachusetts, us",42.3959296,-71.1786655,1
 "riverside, california, us",33.7219991,-116.0372472,1
 "idaho falls, idaho, us",43.4935245,-112.0400919,1
@@ -159,3 +159,15 @@ india,22.3511148,78.6677428,1
 "detroit, michigan, us",42.3315509,-83.0466403,1
 "cape may, new jersey, us",38.933431,-74.9214226,1
 "norwich, uk",52.628606,1.29227,1
+"hampton, virginia, us",37.0300969,-76.3452057,1
+"cambridge, uk",52.2034823,0.1235817,1
+"new york city, new york, us",40.7127281,-74.0060152,2
+"fairbanks, alaska, us",64.837845,-147.716675,1
+"mississauga, canada",43.5896231,-79.6443879,1
+"eugene, oregon, us",44.0505054,-123.0950506,1
+"canberra, australia",-35.2975906,149.1012676,1
+"athens, georgia, us",33.9597677,-83.376398,1
+"verona,  new jersey, us",40.829822,-74.2401466,1
+edinburgh germany,50.2600043,10.967953398069028,1
+"fort collins, colorado, us",40.5508527,-105.0668085,1
+"paris, france",48.8566969,2.3514616,1
