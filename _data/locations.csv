@@ -1,5 +1,5 @@
 name,lat,lng,count
-"pasadena, california, us",34.1476452,-118.1444779,5
+"pasadena, california, us",34.1476452,-118.1444779,6
 "evanston, illinois, us",42.0447388,-87.6930459,5
 "new haven, connecticut, us",41.298434349999994,-72.93102342707913,7
 "providence, rhode island, us",41.8239891,-71.4128343,11
@@ -173,6 +173,5 @@ edinburgh germany,50.2600043,10.967953398069028,1
 "pune, india",18.521428,73.8544541,1
 "rancho mirage, california, us",33.770859,-116.42687402345575,1
 "college park, md, us",38.980666,-76.9369189,1
-"pasadena, california, usa",34.1476452,-118.1444779,1
 "charleston, south carolina, us",32.7876012,-79.9402728,3
 "dhaka, bangladesh",23.810651,90.4126466,1
