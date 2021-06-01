@@ -1,5 +1,5 @@
 name,lat,lng,count
-"pasadena, california, us",34.1476452,-118.1444779,5
+"pasadena, california, us",34.1476452,-118.1444779,6
 "evanston, illinois, us",42.0447388,-87.6930459,5
 "new haven, connecticut, us",41.298434349999994,-72.93102342707913,7
 "providence, rhode island, us",41.8239891,-71.4128343,11
@@ -7,10 +7,10 @@ name,lat,lng,count
 "pittsburgh, pennsylvania, us",40.4416941,-79.9900861,9
 "state college, pennsylvania, us",40.7944504,-77.8616386,4
 "east lansing, michigan, us",42.7355416,-84.4852469,4
-"princeton, new jersey, us",40.3492744,-74.6592958,6
+"princeton, new jersey, us",40.3492744,-74.6592958,8
 "portland, oregon, us",45.5202471,-122.6741949,3
 "buffalo, new york, us",42.8867166,-78.8783922,2
-"austin, texas, us",30.2711286,-97.7436995,4
+"austin, texas, us",30.2711286,-97.7436995,5
 "san antonio, texas, us",29.4246002,-98.4951405,1
 "berkeley, california, us",37.8708393,-122.2728639,13
 "lexington, kentucky, us",38.0464066,-84.4970393,2
@@ -21,25 +21,25 @@ name,lat,lng,count
 "notre dame, indiana, us",41.704567749999995,-86.23822026017265,2
 "phoenix, arizona, us",33.4484367,-112.0741417,4
 "armonk, new york, us",41.1330485,-73.71262371614495,1
-"new york, new york, us",40.7127281,-74.0060152,22
+"new york, new york, us",40.7127281,-74.0060152,23
 caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "huntsville, alabama, us",34.729847,-86.5859011,1
 "kanpur, india",26.4609135,80.3217588,1
 "kathmandu 44600, nepal",27.708317,85.3205817,1
 "london, united kingdom",51.5073219,-0.1276474,2
-"chicago, illinois, us",41.8755616,-87.6244212,12
+"chicago, illinois, us",41.8755616,-87.6244212,13
 "cambridge, massachusetts, us",42.3750997,-71.1056157,10
 "iowa city, iowa, us",41.6612561,-91.5299106,2
 "blacksburg, virginia, us",37.2296566,-80.4136767,5
 "reading, united kingdom",51.456659,-0.9696512,1
-"los angeles, california, us",34.0536909,-118.242766,3
+"los angeles, california, us",34.0536909,-118.242766,4
 "washington, dc, us",38.8949924,-77.0365581,8
 "newark, delaware, us",39.6852191,-75.7508289,3
 "bloomington, indiana, us",39.1670396,-86.5342881,2
 "bellevue, washington, us",47.6144219,-122.1923372,1
 "oak ridge, tennessee, us",36.0103562,-84.2696449,16
-"urbana, illinois, us",40.1117174,-88.207301,12
-"seattle, washington, us",47.6038321,-122.3300624,19
+"urbana, illinois, us",40.1117174,-88.207301,13
+"seattle, washington, us",47.6038321,-122.3300624,22
 "minneapolis, minnesota, us",44.9772995,-93.2654692,2
 "golden, colorado, us",39.743310699999995,-105.21250036061394,8
 "madison, wisconsin, us",43.074761,-89.3837613,8
@@ -74,10 +74,10 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "socorro, new mexico, us",34.0572858,-106.8930799,1
 "santa monica, california us",34.0194704,-118.4912273,1
 "orange, california, us",33.7500378,-117.8704931,1
-"nashville, tennessee, us",36.1622296,-86.7743531,2
+"nashville, tennessee, us",36.1622296,-86.7743531,3
 "pasadena, ca, us",34.1476452,-118.1444779,1
 "tuscon, arizona, us",32.1952802,-110.9792506,1
-"ann arbor, michigan, us",42.2681569,-83.7312291,6
+"ann arbor, michigan, us",42.2681569,-83.7312291,8
 "montreal, canada",45.4972159,-73.6103642,1
 "menlo park, california, us",37.4519671,-122.1779927,7
 "nethergate, dundee dd1 4hn, united kingdom",56.4573119,-2.9758871,1
@@ -100,7 +100,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "storrs, connecticut, us",41.8058137,-72.25423601022806,1
 "ottawa, canada",45.421106,-75.690308,1
 "matias barbosa, mg - brazil",-21.8691643,-43.3180624,1
-"knoxville, tennessee, us",35.9603948,-83.9210261,3
+"knoxville, tennessee, us",35.9603948,-83.9210261,4
 "san jose, california, us",37.3361905,-121.890583,2
 "university park, pennsylvania, us",40.8087493,-77.8585662,2
 "hilo, hawaii, us",19.7073734,-155.0815803,1
@@ -128,7 +128,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "lenoir city, tennessee, us",35.7972998,-84.2560299,1
 "pullman, washington, us",46.7304268,-117.173895,1
 "columbia, maryland, us",39.193919550000004,-76.87477229012376,1
-"baltimore, maryland, us",39.2908816,-76.610759,3
+"baltimore, maryland, us",39.2908816,-76.610759,4
 copenhagen,55.6867243,12.5700724,1
 "new brunswick, new jersey, us",40.4862174,-74.4518173,2
 "palo alto, california, us",37.4443293,-122.1598465,1
@@ -146,7 +146,7 @@ copenhagen,55.6867243,12.5700724,1
 "idaho falls, idaho, us",43.4935245,-112.0400919,1
 "chapel hill, north carolina, us",35.9131542,-79.05578,2
 "hadley, massachusetts, us",42.35637,-72.5620883,1
-"budapest, hungary",47.48138955,19.14607278448202,1
+"budapest, hungary",47.48138955,19.14607278448202,2
 "mohammadpur, bangladesh",23.7629377,90.3658769,1
 "dover, new hampshire, us",43.198057,-70.8739158,1
 "greenbelt, maryland, usa",39.004607,-76.8756838,1
@@ -170,9 +170,11 @@ india,22.3511148,78.6677428,1
 edinburgh germany,50.2600043,10.967953398069028,1
 "fort collins, colorado, us",40.5508527,-105.0668085,1
 "paris, france",48.8566969,2.3514616,1
-"pune, india",18.521428,73.8544541,1
+"pune, india",18.521428,73.8544541,2
 "rancho mirage, california, us",33.770859,-116.42687402345575,1
 "college park, md, us",38.980666,-76.9369189,1
-"pasadena, california, usa",34.1476452,-118.1444779,1
 "charleston, south carolina, us",32.7876012,-79.9402728,3
 "dhaka, bangladesh",23.810651,90.4126466,1
+"sacramento, california, us",38.5810606,-121.493895,1
+"california, us",36.7014631,-118.755997,1
+"south bend, indiana, us",41.6833813,-86.2500066,1
