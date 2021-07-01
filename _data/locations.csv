@@ -7,7 +7,7 @@ name,lat,lng,count
 "pittsburgh, pennsylvania, us",40.4416941,-79.9900861,9
 "state college, pennsylvania, us",40.7944504,-77.8616386,4
 "east lansing, michigan, us",42.7355416,-84.4852469,4
-"princeton, new jersey, us",40.3492744,-74.6592958,8
+"princeton, new jersey, us",40.3492744,-74.6592958,9
 "portland, oregon, us",45.5202471,-122.6741949,3
 "buffalo, new york, us",42.8867166,-78.8783922,2
 "austin, texas, us",30.2711286,-97.7436995,5
@@ -42,7 +42,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "seattle, washington, us",47.6038321,-122.3300624,22
 "minneapolis, minnesota, us",44.9772995,-93.2654692,2
 "golden, colorado, us",39.743310699999995,-105.21250036061394,8
-"madison, wisconsin, us",43.074761,-89.3837613,8
+"madison, wisconsin, us",43.074761,-89.3837613,9
 "houston, texas, us",29.7589382,-95.3676974,3
 "charlottesville, virginia, us",38.029306,-78.4766781,2
 "livermore, california, us",37.6820583,-121.7680531,8
@@ -51,7 +51,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "lemont, illinois, us",41.6737149,-88.0016263,5
 "clemson, south carolina, us",34.6850749,-82.8364111,3
 "philadelphia, pennsylvania, us",39.9527237,-75.1635262,4
-"laramie, wyoming, us",41.311367,-105.591101,2
+"laramie, wyoming, us",41.311367,-105.591101,3
 "boise, idaho, us",43.6166163,-116.200886,2
 "bethesda, maryland, us",38.9819845,-77.12423413116392,2
 "toronto, canada",43.6534817,-79.3839347,2
@@ -85,7 +85,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "durham, new hampshire, us",43.134564,-70.927048,1
 "san diego, california, us",32.7174202,-117.1627728,3
 "hamilton, on l8s 4l8, canada",43.2560802,-79.8728583,1
-"boston, massachusetts, us",42.3602534,-71.0582912,10
+"boston, massachusetts, us",42.3602534,-71.0582912,11
 "kennesaw, georgia, us",34.0234337,-84.6154897,4
 "bethlehem, pennsylvania, us",40.6178915,-75.3786521,1
 "claremont, california, us",34.0966764,-117.7197785,1
@@ -178,3 +178,8 @@ edinburgh germany,50.2600043,10.967953398069028,1
 "sacramento, california, us",38.5810606,-121.493895,1
 "california, us",36.7014631,-118.755997,1
 "south bend, indiana, us",41.6833813,-86.2500066,1
+"ann arbor, michigan us",42.2681569,-83.7312291,1
+"worcester, massachusetts, us",42.2625621,-71.8018877,1
+"chicago, ilinois, us",41.8755616,-87.6244212,1
+"melbourne, australia",-37.8142176,144.9631608,1
+"gdansk, poland",54.36143405,18.62821847557274,1
