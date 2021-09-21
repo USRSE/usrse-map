@@ -10,7 +10,7 @@ permalink: /
 <style>
   #map {
     position: absolute; 
-    top: 90px; 
+    top: 50px; 
     width: 100%;
     min-height:900px;
     bottom:0px;

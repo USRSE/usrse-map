@@ -6,8 +6,8 @@
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
 url: "https://us-rse.org"
 baseurl: "/usrse-map"  # for testing, also check .circleci/circle_urls.sh 
-title-img: /assets/img/rse_logo_background.svg  # baseurl will be prepended
-twitter-img: /assets/img/logo_600px.png  # url + baseurl will be prepended
+title-img: /assets/img/callout.png  # baseurl will be prepended
+twitter-img: /assets/img/callout.png  # url + baseurl will be prepended
 mapbox: "pk.eyJ1IjoidnNvY2giLCJhIjoiY2sxdXE4dGZ6MGxveTNibzBqc2E5OXpzbiJ9.OdVyKYmHLhSsk03iQoN1kw"
 
 # Name of website
@@ -21,7 +21,7 @@ description: US Research Software Engineer Association Map
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/callout.png"
 
 # List of links in the navigation bar
 navbar-links:
@@ -31,10 +31,10 @@ navbar-links:
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F5F5F5"
+navbar-col: "#741755"
 navbar-text-col: "#ffffff"
 navbar-children-col: "#500e3d"
-page-col: "#FFFFFF"
+page-col: "#741755"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 footer-col: "#F5F5F5"

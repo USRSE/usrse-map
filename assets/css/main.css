@@ -13,8 +13,6 @@ body {
   color: #404040;
   position: relative;
   background-color: {{ site.page-col }};
-  {% if site.page-img %}background-image: url({{ site.page-img }});
-  background-attachment: fixed;{% endif %}
 }
 p {
   line-height: 1.5;
@@ -120,17 +118,11 @@ img {
 
 .navbar-custom {
   background-color: {{ site.navbar-col }};
-  border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  {% if site.navbar-img %}
-  background-image: url({{ site.navbar-img }});
-  background-attachment: fixed;
-  {% endif %}
 }
 
 .navbar-custom .nav li a {
-  text-transform: uppercase;
-  font-size: 12px;
+  font-size: 18px;
   letter-spacing: 1px;
 }
 
@@ -168,7 +160,6 @@ img {
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    padding: 20px 0;
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -241,7 +232,6 @@ img {
 }
 .navbar-custom .nav .navlinks-container .navlinks-children a {
   display: block;
-  padding: 10px;
   padding-left: 30px;
   background-color: {{ site.navbar-children-col }};
   text-decoration: none !important;
@@ -701,7 +691,6 @@ code table, code table td, code table th, code table tbody, code table tr,
 td.gutter pre {
   padding: 0;
   border: none;
-  background-color: #fff;
 }
 .highlight > pre {
   padding: 0;
