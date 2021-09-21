@@ -2,8 +2,8 @@
 
 /* make logo larger than the default, and add shadow */
 .navbar-custom .navbar-brand-logo img {
-  height: 150px;
-  padding-top:40px;
+  height: 180px;
+  padding-top: 65px;
 }
 
 /* make headers bold instead of extra-bold */

@@ -6,8 +6,8 @@
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
 url: "https://us-rse.org"
 baseurl: "/usrse-map"  # for testing, also check .circleci/circle_urls.sh 
-title-img: /assets/img/callout.png  # baseurl will be prepended
-twitter-img: /assets/img/callout.png  # url + baseurl will be prepended
+title-img: /assets/img/main_logo_transparent.png  # baseurl will be prepended
+twitter-img: /assets/img/main_logo_transparent.png  # url + baseurl will be prepended
 mapbox: "pk.eyJ1IjoidnNvY2giLCJhIjoiY2sxdXE4dGZ6MGxveTNibzBqc2E5OXpzbiJ9.OdVyKYmHLhSsk03iQoN1kw"
 
 # Name of website
