@@ -6,7 +6,7 @@ name,lat,lng,count
 "stanford, california, us",37.426540700000004,-122.17029258409187,28
 "pittsburgh, pennsylvania, us",40.4416941,-79.9900861,9
 "state college, pennsylvania, us",40.7944504,-77.8616386,4
-"east lansing, michigan, us",42.7355416,-84.4852469,5
+"east lansing, michigan, us",42.7355416,-84.4852469,6
 "princeton, new jersey, us",40.3492744,-74.6592958,11
 "portland, oregon, us",45.5202471,-122.6741949,3
 "buffalo, new york, us",42.8867166,-78.8783922,2
@@ -17,17 +17,17 @@ name,lat,lng,count
 "santa clara, california, us",37.2333253,-121.6846349,4
 "atlanta, georgia, us",33.7489924,-84.3902644,7
 "los alamos, new mexico, us",35.8814009,-106.2989958,11
-"albuquerque, new mexico, us",35.0841034,-106.6509851,10
+"albuquerque, new mexico, us",35.0841034,-106.6509851,15
 "notre dame, indiana, us",41.704567749999995,-86.23822026017265,2
 "phoenix, arizona, us",33.4484367,-112.0741417,4
 "armonk, new york, us",41.1330485,-73.71262371614495,1
-"new york, new york, us",40.7127281,-74.0060152,23
+"new york, new york, us",40.7127281,-74.0060152,24
 caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "huntsville, alabama, us",34.729847,-86.5859011,1
 "kanpur, india",26.4609135,80.3217588,1
 "kathmandu 44600, nepal",27.708317,85.3205817,1
 "london, united kingdom",51.5073219,-0.1276474,2
-"chicago, illinois, us",41.8755616,-87.6244212,14
+"chicago, illinois, us",41.8755616,-87.6244212,15
 "cambridge, massachusetts, us",42.3750997,-71.1056157,10
 "iowa city, iowa, us",41.6612561,-91.5299106,2
 "blacksburg, virginia, us",37.2296566,-80.4136767,5
@@ -68,7 +68,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "college park, maryland, us",38.980666,-76.9369189,2
 "dartmouth, new hampshire, us",43.7031165,-72.2898092,1
 "gainesville, florida, us",29.6519684,-82.3249846,3
-"boulder, colorado, us",40.0149856,-105.2705456,16
+"boulder, colorado, us",40.0149856,-105.2705456,17
 "amherst, massachusetts, us",42.3685658,-72.505714,1
 "oakton, virginia, us",38.896729,-77.29866437219505,1
 "socorro, new mexico, us",34.0572858,-106.8930799,1
@@ -83,7 +83,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "nethergate, dundee dd1 4hn, united kingdom",56.4573119,-2.9758871,1
 "honolulu, hawaii, us",21.304547,-157.8556764,2
 "durham, new hampshire, us",43.134564,-70.927048,1
-"san diego, california, us",32.7174202,-117.1627728,7
+"san diego, california, us",32.7174202,-117.1627728,8
 "hamilton, on l8s 4l8, canada",43.2560802,-79.8728583,1
 "boston, massachusetts, us",42.3602534,-71.0582912,11
 "kennesaw, georgia, us",34.0234337,-84.6154897,4
@@ -100,7 +100,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "storrs, connecticut, us",41.8058137,-72.25423601022806,1
 "ottawa, canada",45.421106,-75.690308,1
 "matias barbosa, mg - brazil",-21.8691643,-43.3180624,1
-"knoxville, tennessee, us",35.9603948,-83.9210261,5
+"knoxville, tennessee, us",35.9603948,-83.9210261,6
 "san jose, california, us",37.3361905,-121.890583,2
 "university park, pennsylvania, us",40.8087493,-77.8585662,3
 "hilo, hawaii, us",19.7073734,-155.0815803,1
@@ -113,7 +113,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "weatherford, oklahoma, us",35.5261633,-98.7075744,1
 "tuscaloosa, alabama, us",33.2095614,-87.5675258,2
 "swansea, united kingdom",51.6195955,-3.9459248,1
-"san francisco, california, us",37.7790262,-122.4199061,3
+"san francisco, california, us",37.7790262,-122.4199061,4
 "glendale, california, us",34.1469416,-118.2478471,1
 "fayetteville, arkansas, us",36.0625843,-94.1574328,1
 "santa cruz, california, us",37.050096,-121.9905908,1
@@ -123,7 +123,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 "fairfax, virginia, us",38.8462236,-77.3063733,1
 "la jolla, california, us",32.83259,-117.2716839,3
 "redwood city, california, us",37.4863239,-122.232523,1
-"tucson, arizona, us",32.2228765,-110.9748477,2
+"tucson, arizona, us",32.2228765,-110.9748477,3
 "arlington, virginia, us",38.8807617,-77.10769081477989,1
 "lenoir city, tennessee, us",35.7972998,-84.2560299,1
 "pullman, washington, us",46.7304268,-117.173895,1
@@ -132,7 +132,7 @@ caulfield east vic 3145 australia,-37.881276,145.0420847,1
 copenhagen,55.6867243,12.5700724,1
 "new brunswick, new jersey, us",40.4862174,-74.4518173,2
 "palo alto, california, us",37.4443293,-122.1598465,1
-"salt lake city, utah, us",40.7596198,-111.8867975,1
+"salt lake city, utah, us",40.7596198,-111.8867975,2
 "holyoke, massachusetts, us",42.2071434,-72.60765,1
 "scottsdale, arizona, us",33.4942189,-111.9260184,1
 "mountain view, california, us",37.3893889,-122.0832101,1
@@ -173,10 +173,11 @@ edinburgh germany,50.2600043,10.967953398069028,1
 "pune, india",18.521428,73.8544541,2
 "rancho mirage, california, us",33.770859,-116.42687402345575,1
 "college park, md, us",38.980666,-76.9369189,1
-"charleston, south carolina, us",32.7876012,-79.9402728,3
+"charleston, south carolina, us",32.7876012,-79.9402728,2
 "dhaka, bangladesh",23.810651,90.4126466,1
+#ref!,-0.9565128,119.9321844,1
 "sacramento, california, us",38.5810606,-121.493895,1
-"california, us",36.7014631,-118.755997,1
+"california, us",36.7014631,-118.755997,2
 "south bend, indiana, us",41.6833813,-86.2500066,1
 "worcester, massachusetts, us",42.2625621,-71.8018877,1
 "melbourne, australia",-37.8142176,144.9631608,1
@@ -199,3 +200,11 @@ hong kong,22.2793278,114.1628131,1
 "newport news, virginia, us",36.9775016,-76.42977,1
 "seattle, washington",47.6038321,-122.3300624,1
 "exeter, united kingdom",50.7255794,-3.5269497,1
+"tulsa, oklahoma, us",36.1556805,-95.9929113,1
+"monterey, california, us",36.2231079,-121.3877428,1
+"johannesburg, south africa",-26.205,28.049722,1
+"louisville, kentucky, us",38.2542376,-85.759407,1
+"tempe, arizona, usa",33.4255056,-111.9400091,1
+"durango, colorado, us",37.2395367,-107.82158179169292,2
+"tampa, florida, us",27.9477595,-82.458444,1
+"greenbelt, maryland, us",38.9937333,-76.883065797021,1
