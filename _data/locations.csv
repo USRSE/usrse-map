@@ -75,7 +75,7 @@ name,lat,lng,count
 "santa monica, california us",34.0194704,-118.4912273,1
 "orange, california, us",33.7500378,-117.8704931,1
 "nashville, tennessee, us",36.1622296,-86.7743531,4
-"tuscon, arizona, us",32.1952802,-110.9792506,1
+"tucson, arizona, us",32.1952802,-110.9792506,2
 "ann arbor, michigan, us",42.2681569,-83.7312291,11
 "montreal, canada",45.4972159,-73.6103642,2
 "menlo park, california, us",37.4519671,-122.1779927,7
@@ -211,5 +211,4 @@ hong kong,22.2793278,114.1628131,1
 "cookeville, tennessee, us",36.1623886,-85.4997057,1
 "kolkata, india",22.5414185,88.35769124388872,1
 "stellenbosch, south africa",-33.934444,18.869167,1
-"tucson, arizona",32.2228765,-110.9748477,1
 "puebla, mexico",18.833333,-98.0,1
