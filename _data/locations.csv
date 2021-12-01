@@ -75,7 +75,7 @@ name,lat,lng,count
 "santa monica, california us",34.0194704,-118.4912273,1
 "orange, california, us",33.7500378,-117.8704931,1
 "nashville, tennessee, us",36.1622296,-86.7743531,4
-"tucson, arizona, us",32.1952802,-110.9792506,2
+"tucson, arizona, us",32.2228765,-110.9748477,5
 "ann arbor, michigan, us",42.2681569,-83.7312291,11
 "montreal, canada",45.4972159,-73.6103642,2
 "menlo park, california, us",37.4519671,-122.1779927,7
@@ -122,7 +122,6 @@ name,lat,lng,count
 "fairfax, virginia, us",38.8462236,-77.3063733,1
 "la jolla, california, us",32.83259,-117.2716839,3
 "redwood city, california, us",37.4863239,-122.232523,1
-"tucson, arizona, us",32.2228765,-110.9748477,3
 "arlington, virginia, us",38.8807617,-77.10769081477989,1
 "lenoir city, tennessee, us",35.7972998,-84.2560299,1
 "pullman, washington, us",46.7304268,-117.173895,1
