@@ -27,8 +27,8 @@ name,lat,lng,count
 "kanpur, india",26.4609135,80.3217588,1
 "kathmandu, nepal",27.708317,85.3205817,1
 "london, united kingdom",51.5073219,-0.1276474,2
-"chicago, illinois, us",41.8755616,-87.6244212,15
-"cambridge, massachusetts, us",42.3750997,-71.1056157,10
+"chicago, illinois, us",41.8755616,-87.6244212,16
+"cambridge, massachusetts, us",42.3750997,-71.1056157,11
 "iowa city, iowa, us",41.6612561,-91.5299106,2
 "blacksburg, virginia, us",37.2296566,-80.4136767,5
 "reading, united kingdom",51.456659,-0.9696512,1
@@ -52,13 +52,13 @@ name,lat,lng,count
 "clemson, south carolina, us",34.6850749,-82.8364111,3
 "philadelphia, pennsylvania, us",39.9527237,-75.1635262,4
 "laramie, wyoming, us",41.311367,-105.591101,3
-"boise, idaho, us",43.6166163,-116.200886,2
+"boise, idaho, us",43.6166163,-116.200886,3
 "bethesda, maryland, us",38.9819845,-77.12423413116392,2
 "toronto, canada",43.6534817,-79.3839347,3
 "champaign, illinois, us",40.1164205,-88.2433829,5
 "memphis, tennessee, us",35.1490215,-90.0516285,3
 "cleveland, ohio, us",41.5051613,-81.6934446,1
-"dallas, texas, us",32.7762719,-96.7968559,3
+"dallas, texas, us",32.7762719,-96.7968559,4
 "rocquencourt, france",49.6502698,2.4172616,1
 "gunnison, colorado, us",38.6476702,-107.0603126,1
 "santa monica, california, us",34.0194704,-118.4912273,1
@@ -75,7 +75,7 @@ name,lat,lng,count
 "santa monica, california us",34.0194704,-118.4912273,1
 "orange, california, us",33.7500378,-117.8704931,1
 "nashville, tennessee, us",36.1622296,-86.7743531,4
-"tucson, arizona, us",32.1952802,-110.9792506,2
+"tucson, arizona, us",32.2228765,-110.9748477,6
 "ann arbor, michigan, us",42.2681569,-83.7312291,11
 "montreal, canada",45.4972159,-73.6103642,2
 "menlo park, california, us",37.4519671,-122.1779927,7
@@ -122,7 +122,6 @@ name,lat,lng,count
 "fairfax, virginia, us",38.8462236,-77.3063733,1
 "la jolla, california, us",32.83259,-117.2716839,3
 "redwood city, california, us",37.4863239,-122.232523,1
-"tucson, arizona, us",32.2228765,-110.9748477,3
 "arlington, virginia, us",38.8807617,-77.10769081477989,1
 "lenoir city, tennessee, us",35.7972998,-84.2560299,1
 "pullman, washington, us",46.7304268,-117.173895,1
@@ -212,3 +211,15 @@ hong kong,22.2793278,114.1628131,1
 "kolkata, india",22.5414185,88.35769124388872,1
 "stellenbosch, south africa",-33.934444,18.869167,1
 "puebla, mexico",18.833333,-98.0,1
+"denver, co",39.7392364,-104.9848623,1
+ann arbor,42.2681569,-83.7312291,1
+"state college, pennsylvania",40.7944504,-77.8616386,1
+"santa barbara, california, us",34.4221319,-119.7026673,1
+"austin, tx",30.2711286,-97.7436995,1
+"knoxville, tn, us",35.9603948,-83.9210261,1
+"charlotte, north carolina, us",35.2272086,-80.8430827,1
+"johannesburg, gauteng, south africa",-26.205,28.049722,1
+"oak ridge, tn",36.0103562,-84.2696449,1
+"oak ridge, tennessee",36.0103562,-84.2696449,1
+"golden, co",39.755543,-105.221099,1
+"golden, colorado",39.755543,-105.221099,1
