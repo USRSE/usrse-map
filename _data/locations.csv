@@ -34,7 +34,7 @@ name,lat,lng,count
 "reading, united kingdom",51.456659,-0.9696512,1
 "los angeles, california, us",34.0536909,-118.242766,5
 "washington, dc, us",38.8949924,-77.0365581,9
-"newark, delaware, us",39.6852191,-75.7508289,3
+"newark, delaware, us",39.6852191,-75.7508289,4
 "bloomington, indiana, us",39.1670396,-86.5342881,2
 "bellevue, washington, us",47.6144219,-122.1923372,1
 "oak ridge, tennessee, us",36.0103562,-84.2696449,19
@@ -165,7 +165,7 @@ india,22.3511148,78.6677428,1
 "canberra, australia",-35.2975906,149.1012676,1
 "athens, georgia, us",33.9597677,-83.376398,1
 "verona,  new jersey, us",40.829822,-74.2401466,1
-edinburgh germany,50.2600043,10.967953398069028,1
+"edinburgh, uk",55.9533456,-3.1883749,1
 "fort collins, colorado, us",40.5508527,-105.0668085,1
 "paris, france",48.8566969,2.3514616,2
 "pune, india",18.521428,73.8544541,2
