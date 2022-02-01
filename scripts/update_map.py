@@ -21,14 +21,12 @@ here = os.path.dirname(os.path.abspath(__file__))
 
 
 def get_filepath():
-    """get path for the data file to write
-    """
+    """get path for the data file to write"""
     return os.path.join(os.path.dirname(here), "_data", "locations.csv")
 
 
 def get_locations():
-    """get path for the locations already found
-    """
+    """get path for the locations already found"""
     filepath = os.path.join(os.path.dirname(here), "_data", "locations.csv")
     if not os.path.exists(filepath):
         sys.exit("Cannot find %s" % filepath)
@@ -36,11 +34,10 @@ def get_locations():
 
 
 def get_location(geolocator, address, delay=1.5, attempts=3):
-    """Retry to use the geolocator, fail after some number of attempts
-    """
+    """Retry to use the geolocator, fail after some number of attempts"""
     try:
         time.sleep(delay)
-        location = geolocator.geocode(address)
+        location = geolocator.geocode(address, timeout=10)
         return location
     except:
         if attempts > 0:
@@ -51,8 +48,7 @@ def get_location(geolocator, address, delay=1.5, attempts=3):
 
 
 def read_rows(filepath, newline="", delim=","):
-    """read in the data rows of a csv file.
-    """
+    """read in the data rows of a csv file."""
     # Read in the entire membership counts
     with open(filepath, newline=newline) as infile:
         reader = csv.reader(infile, delimiter=delim)
@@ -61,8 +57,7 @@ def read_rows(filepath, newline="", delim=","):
 
 
 def main():
-    """main entrypoint for the script to generate the locations file
-    """
+    """main entrypoint for the script to generate the locations file"""
     # A csv download for just the worksheet with city, state
     sheet = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBn_kgBH8WoFmqdRJYdw8GrmfvjbdWIMYCk-yxelaE8aUO3J0rY19_wPOI9HHW0U0tc5Bg19uApPzx/pub?gid=1918148706&single=true&output=csv"
 
