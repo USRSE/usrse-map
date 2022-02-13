@@ -1,7 +1,7 @@
 ---
 layout: page
-title: US-RSE Map GL
-subtitle: The US Research Software Engineer Association Map (GL!)
+title: US-RSE Heatmap
+subtitle: The US Research Software Engineer Association HeatMap
 use-site-title: true
 permalink: /heatmap/
 ---
