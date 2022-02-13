@@ -2,9 +2,17 @@
 
 [![GitHub actions status](https://github.com/USRSE/usrse-map/workflows/CI/badge.svg?branch=master)](https://github.com/USRSE/usrse-map/actions?query=branch%3Amaster+workflow%3ACI)
 
-This repository contains static files and workflows to generate the US-RSE map.
+This repository contains static files and workflows to generate the US-RSE map. We have two versions! A standard map where dots for sizes represent population of RSEng:
 
 ![assets/img/usrse-map.png](assets/img/usrse-map.png)
+
+And a new heatmap that can better represent the density of an area!
+
+![assets/img/heatmap.png](assets/img/heatmap.png)
+
+The latter will better support showing our community as it gets larger. The problem with having the points
+is that they get very large in some areas and it makes it hard to see.  Both maps
+generate from the same data.
 
 ## How does it work?
 

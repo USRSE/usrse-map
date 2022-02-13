@@ -35,6 +35,8 @@
         {% endif %}
         {% endfor %}
        <li><a href="https://github.com/{{ site.github_url }}" class="no-after" target="_blank"> GitHub</i></a></li>
+       {% if page.url == "/heatmap/" %}<li><a href="{{ site.baseurl }}/" class="no-after">Back to Map</a></li>{% endif %}
+       {% if page.url == "/" %}<li><a href="{{ site.baseurl }}/heatmap/" class="no-after">Heatmap</a></li>{% endif %}
        <li><a href="{{ site.url }}/search" class="no-after" id="search-toggle"> <i class="fa fa-search" style="margin-right:20px"></i></a></li>
       </ul>
     </div>

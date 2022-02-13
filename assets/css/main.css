@@ -755,6 +755,10 @@ td.gutter {
   background-color: initial;
 }
 
+.navbar-default {
+  border-color: #741755 !important
+}
+
 .navbar-default button.navbar-toggle[aria-expanded="true"] {
   background-color: rgba(0, 0, 0, 0.2);
 }
