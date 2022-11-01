@@ -38,7 +38,7 @@ name,lat,lng,count
 "newark, delaware, us",39.6852191,-75.7508289,5
 "bloomington, indiana, us",39.1670396,-86.5342881,3
 "bellevue, washington, us",47.6144219,-122.1923372,4
-"oak ridge, tennessee, us",36.0103562,-84.2696449,21
+"oak ridge, tennessee, us",36.0103562,-84.2696449,22
 "urbana, illinois, us",40.1117174,-88.207301,15
 "seattle, washington, us",47.6038321,-122.3300624,30
 "minneapolis, minnesota, us",44.9772995,-93.2654692,3
@@ -281,7 +281,6 @@ singapore,1.357107,103.8194992,1
 "spencer, tennessee, us",35.7472893,-85.4666413,1
 "quincy, massachusetts, us",42.2509914,-71.0037374,1
 "wuhan, china",30.5951051,114.2999353,1
-"oak ridge, tennessee,  us",36.0103562,-84.2696449,1
 "kansas city, kansas, us",39.1134562,-94.626497,1
 "west lafayette, in, us",40.4258686,-86.9080655,1
 "north bonneville, washington, us",45.6373393,-121.9711934,1
