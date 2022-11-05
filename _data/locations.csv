@@ -1,62 +1,62 @@
 name,lat,lng,count
-"pasadena, california, us",34.1476452,-118.1444779,8
+"pasadena, california, us",34.1476452,-118.1444779,10
 "evanston, illinois, us",42.0447388,-87.6930459,7
 "new haven, connecticut, us",41.298434349999994,-72.93102342707913,7
-"providence, rhode island, us",41.8239891,-71.4128343,14
-"stanford, california, us",37.426540700000004,-122.17029258409187,30
-"pittsburgh, pennsylvania, us",40.4416941,-79.9900861,11
-"state college, pennsylvania, us",40.7944504,-77.8616386,6
-"east lansing, michigan, us",42.7355416,-84.4852469,8
-"princeton, new jersey, us",40.3492744,-74.6592958,19
+"providence, rhode island, us",41.8239891,-71.4128343,15
+"stanford, california, us",37.426540700000004,-122.17029258409187,31
+"pittsburgh, pennsylvania, us",40.4416941,-79.9900861,16
+"state college, pennsylvania, us",40.7944504,-77.8616386,7
+"east lansing, michigan, us",42.7355416,-84.4852469,9
+"princeton, new jersey, us",40.3492744,-74.6592958,22
 "portland, oregon, us",45.5202471,-122.6741949,4
-"buffalo, new york, us",42.8867166,-78.8783922,3
-"austin, texas, us",30.2711286,-97.7436995,12
+"buffalo, new york, us",42.8867166,-78.8783922,4
+"austin, texas, us",30.2711286,-97.7436995,14
 "san antonio, texas, us",29.4246002,-98.4951405,1
-"berkeley, california, us",37.8708393,-122.2728639,26
+"berkeley, california, us",37.8708393,-122.2728639,28
 "lexington, kentucky, us",38.0464066,-84.4970393,3
 "santa clara, california, us",37.2333253,-121.6846349,4
-"atlanta, georgia, us",33.7489924,-84.3902644,11
-"chapel hill, north carolina, us",35.9131542,-79.05578,4
+"atlanta, georgia, us",33.7489924,-84.3902644,13
+"chapel hill, north carolina, us",35.9131542,-79.05578,5
 "los alamos, new mexico, us",35.8814009,-106.2989958,13
-"albuquerque, new mexico, us",35.0841034,-106.6509851,20
+"albuquerque, new mexico, us",35.0841034,-106.6509851,24
 "notre dame, indiana, us",41.704567749999995,-86.23822026017265,2
 "phoenix, arizona, us",33.4484367,-112.0741417,5
 "armonk, new york, us",41.1330485,-73.71262371614495,1
-"new york, new york, us",40.7127281,-74.0060152,37
+"new york, new york, us",40.7127281,-74.0060152,44
 "caulfield east, victoria, australia",-37.881276,145.0420847,1
 "huntsville, alabama, us",34.729847,-86.5859011,1
 "kanpur, india",26.4609135,80.3217588,1
 "kathmandu, nepal",27.708317,85.3205817,1
 "london, united kingdom",51.5073219,-0.1276474,2
-"chicago, illinois, us",41.8755616,-87.6244212,23
-"cambridge, massachusetts, us",42.3750997,-71.1056157,13
+"chicago, illinois, us",41.8755616,-87.6244212,31
+"cambridge, massachusetts, us",42.3750997,-71.1056157,15
 "iowa city, iowa, us",41.6612561,-91.5299106,3
 "blacksburg, virginia, us",37.2296566,-80.4136767,6
 "reading, united kingdom",51.456659,-0.9696512,1
-"los angeles, california, us",34.0536909,-118.242766,9
+"los angeles, california, us",34.0536909,-118.242766,11
 "washington, dc, us",38.8949924,-77.0365581,10
-"newark, delaware, us",39.6852191,-75.7508289,5
+"newark, delaware, us",39.6852191,-75.7508289,7
 "bloomington, indiana, us",39.1670396,-86.5342881,3
 "bellevue, washington, us",47.6144219,-122.1923372,4
-"oak ridge, tennessee, us",36.0103562,-84.2696449,21
-"urbana, illinois, us",40.1117174,-88.207301,15
-"seattle, washington, us",47.6038321,-122.3300624,30
-"minneapolis, minnesota, us",44.9772995,-93.2654692,3
+"oak ridge, tennessee, us",36.0103562,-84.2696449,22
+"urbana, illinois, us",40.1117174,-88.207301,17
+"seattle, washington, us",47.6038321,-122.3300624,34
+"minneapolis, minnesota, us",44.9772995,-93.2654692,4
 "golden, colorado, us",39.743310699999995,-105.21250036061394,16
-"madison, wisconsin, us",43.074761,-89.3837613,13
-"houston, texas, us",29.7589382,-95.3676974,7
+"madison, wisconsin, us",43.074761,-89.3837613,14
+"houston, texas, us",29.7589382,-95.3676974,9
 "charlottesville, virginia, us",38.029306,-78.4766781,2
-"livermore, california, us",37.6820583,-121.7680531,11
+"livermore, california, us",37.6820583,-121.7680531,12
 "huntingdon, united kingdom",52.3314292,-0.1847723,1
 "clifton park, new york, us",42.8656325,-73.7709535,4
 "lemont, illinois, us",41.6737149,-88.0016263,8
-"clemson, south carolina, us",34.6850749,-82.8364111,3
+"clemson, south carolina, us",34.6850749,-82.8364111,4
 "philadelphia, pennsylvania, us",39.9527237,-75.1635262,10
 "laramie, wyoming, us",41.311367,-105.591101,4
 "boise, idaho, us",43.6166163,-116.200886,4
-"bethesda, maryland, us",38.9819845,-77.12423413116392,4
+"bethesda, maryland, us",38.9819845,-77.12423413116392,5
 "toronto, canada",43.6534817,-79.3839347,4
-"champaign, illinois, us",40.1164205,-88.2433829,9
+"champaign, illinois, us",40.1164205,-88.2433829,10
 "memphis, tennessee, us",35.1490215,-90.0516285,3
 "cleveland, ohio, us",41.5051613,-81.6934446,1
 "dallas, texas, us",32.7762719,-96.7968559,6
@@ -66,18 +66,18 @@ name,lat,lng,count
 "haverford, pennsylvania, us",40.0131672,-75.2943516,1
 "orlando, florida, us",28.5421109,-81.3790304,5
 "waterloo, ontario, canada",43.4652699,-80.5222961,3
-"college park, maryland, us",38.980666,-76.9369189,3
+"college park, maryland, us",38.980666,-76.9369189,4
 "dartmouth, new hampshire, us",43.7031165,-72.2898092,1
 "gainesville, florida, us",29.6519684,-82.3249846,4
-"boulder, colorado, us",40.0149856,-105.2705456,33
+"boulder, colorado, us",40.0149856,-105.2705456,37
 "amherst, massachusetts, us",42.3685658,-72.505714,1
 "oakton, virginia, us",38.896729,-77.29866437219505,1
 "socorro, new mexico, us",34.0572858,-106.8930799,1
 "santa monica, california us",34.0194704,-118.4912273,1
 "orange, california, us",33.7500378,-117.8704931,1
 "nashville, tennessee, us",36.1622296,-86.7743531,8
-"tucson, arizona, us",32.2228765,-110.9748477,10
-"ann arbor, michigan, us",42.2681569,-83.7312291,12
+"tucson, arizona, us",32.2228765,-110.9748477,11
+"ann arbor, michigan, us",42.2681569,-83.7312291,13
 "montreal, canada",45.4972159,-73.6103642,3
 "menlo park, california, us",37.4519671,-122.1779927,7
 "nethergate, dundee, united kingdom",56.4584161,-2.9736888,1
@@ -85,38 +85,38 @@ name,lat,lng,count
 "durham, new hampshire, us",43.134564,-70.927048,1
 "san diego, california, us",32.7174202,-117.1627728,9
 "hamilton, ontario, canada",43.2560802,-79.8728583,1
-"boston, massachusetts, us",42.3602534,-71.0582912,16
+"boston, massachusetts, us",42.3602534,-71.0582912,18
 "kennesaw, georgia, us",34.0234337,-84.6154897,4
 "bethlehem, pennsylvania, us",40.6178915,-75.3786521,3
 "claremont, california, us",34.0966764,-117.7197785,1
 "new orleans, louisiana, us",29.9499323,-90.0701156,3
 "montgomery, west virginia, us",38.1803833,-81.3284452,1
 "norfolk, virginia, us",36.8462923,-76.2929252,1
-"columbus, ohio, us",39.9622601,-83.0007065,2
+"columbus, ohio, us",39.9622601,-83.0007065,7
 "new britain, connecticut, us",41.6796456,-72.78834682044055,1
 "provo, utah, us",40.2338438,-111.6585337,1
 "kirkwood, missouri, us",38.5800713,-90.4069177,1
-"west lafayette, indiana, us",40.4258686,-86.9080655,7
+"west lafayette, indiana, us",40.4258686,-86.9080655,9
 "storrs, connecticut, us",41.8058137,-72.25423601022806,1
 "ottawa, canada",45.421106,-75.690308,1
 "matias barbosa, mg - brazil",-21.8691643,-43.3180624,1
-"durham, north carolina, us",35.996653,-78.9018053,2
-"knoxville, tennessee, us",35.9603948,-83.9210261,12
+"durham, north carolina, us",35.996653,-78.9018053,3
+"knoxville, tennessee, us",35.9603948,-83.9210261,14
 "san jose, california, us",37.3361905,-121.890583,2
-"university park, pennsylvania, us",40.8087493,-77.8585662,3
-"hilo, hawaii, us",19.7073734,-155.0815803,1
+"university park, pennsylvania, us",40.8087493,-77.8585662,4
+"hilo, hawaii, us",19.7073734,-155.0815803,2
 "upton, new york, us",40.869543,-72.8867697,1
 "islamabad, pakistan",33.6938118,73.0651511,1
 "reykjavik, iceland",64.145981,-21.9422367,1
 "porto alegre, rs, brazil",-30.0324999,-51.2303767,1
-"denver, colorado, us",39.7392364,-104.9848623,6
+"denver, colorado, us",39.7392364,-104.9848623,8
 "omaha, nebraska, us",41.2587459,-95.9383758,2
 "weatherford, oklahoma, us",35.5261633,-98.7075744,1
 "tuscaloosa, alabama, us",33.2095614,-87.5675258,2
 "swansea, united kingdom",51.6195955,-3.9459248,1
 "san francisco, california, us",37.7790262,-122.4199061,8
 "glendale, california, us",34.1469416,-118.2478471,1
-"fayetteville, arkansas, us",36.0625843,-94.1574328,2
+"fayetteville, arkansas, us",36.0625843,-94.1574328,3
 "santa cruz, california, us",37.050096,-121.9905908,1
 "oxford, uk",51.7520131,-1.2578499,2
 "indianapolis, indiana, us",39.779801,-86.1394092110328,1
@@ -129,20 +129,20 @@ name,lat,lng,count
 "lenoir city, tennessee, us",35.7972998,-84.2560299,1
 "pullman, washington, us",46.7304268,-117.173895,2
 "columbia, maryland, us",39.193919550000004,-76.87477229012376,1
-"baltimore, maryland, us",39.2908816,-76.610759,8
+"baltimore, maryland, us",39.2908816,-76.610759,10
 copenhagen,55.6867243,12.5700724,1
 "new brunswick, new jersey, us",40.4862174,-74.4518173,3
 "palo alto, california, us",37.4443293,-122.1598465,2
-"salt lake city, utah, us",40.7596198,-111.8867975,6
+"salt lake city, utah, us",40.7596198,-111.8867975,7
 "holyoke, massachusetts, us",42.2071434,-72.60765,1
-"scottsdale, arizona, us",33.4942189,-111.9260184,1
+"scottsdale, arizona, us",33.4942189,-111.9260184,2
 "mountain view, california, us",37.3893889,-122.0832101,1
-"st. louis, missouri, us",38.6264178,-90.1998378,1
+"st. louis, missouri, us",38.6264178,-90.1998378,2
 "berlin, germany",52.5170365,13.3888599,2
 "naperville, illinois, us",41.7728699,-88.1479278,1
 "kyiv, ukraine",50.4500336,30.5241361,1
-"corvallis, oregon, us",44.5645659,-123.2620435,2
-"tempe, arizona, us",33.4255056,-111.9400125,5
+"corvallis, oregon, us",44.5645659,-123.2620435,3
+"tempe, arizona, us",33.4255056,-111.9400125,6
 "belmont, massachusetts, us",42.3959296,-71.1786655,2
 "riverside, california, us",33.7219991,-116.0372472,1
 "idaho falls, idaho, us",43.4935245,-112.0400919,1
@@ -166,7 +166,7 @@ india,22.3511148,78.6677428,1
 "mississauga, canada",43.5896231,-79.6443879,1
 "eugene, oregon, us",44.0505054,-123.0950506,1
 "canberra, australia",-35.2975906,149.1012676,2
-"athens, georgia, us",33.9597677,-83.376398,4
+"athens, georgia, us",33.9597677,-83.376398,5
 "verona,  new jersey, us",40.829822,-74.2401466,1
 "edinburgh, uk",55.9533456,-3.1883749,1
 "fort collins, colorado, us",40.5508527,-105.0668085,2
@@ -179,7 +179,7 @@ india,22.3511148,78.6677428,1
 "sacramento, california, us",38.5810606,-121.493895,2
 "california, us",36.7014631,-118.755997,2
 "south bend, indiana, us",41.6833813,-86.2500066,1
-"worcester, massachusetts, us",42.2625621,-71.8018877,1
+"worcester, massachusetts, us",42.2625621,-71.8018877,2
 "bauru, brazil",-22.3218102,-49.0705863,1
 "melbourne, australia",-37.8142176,144.9631608,1
 "gdansk, poland",54.36143405,18.62821847557274,1
@@ -188,7 +188,7 @@ india,22.3511148,78.6677428,1
 "merced, california, us",37.1641544,-120.7678602,1
 "gaithersburg, maryland, us",39.1399187,-77.1929215,3
 "wauwatosa, wisconsin, us",43.0494122,-88.0079271,1
-"columbia, missouri, us",38.951883,-92.3337366,2
+"columbia, missouri, us",38.951883,-92.3337366,3
 "edinburgh, united kingdom",55.9533456,-3.1883749,1
 "dodoma, tanzania",-6.3372817,35.73717712327764,1
 "birmingham, alabama, us",33.5206824,-86.8024326,2
@@ -196,30 +196,30 @@ india,22.3511148,78.6677428,1
 "syracuse, new york, us",43.0481221,-76.1474244,1
 hong kong,22.2793278,114.1628131,1
 "genoa, italy",44.40726,8.9338624,1
-"milwaukee, wisconsin, us",43.0349931,-87.922497,1
+"milwaukee, wisconsin, us",43.0349931,-87.922497,2
 "newport news, virginia, us",36.9775016,-76.42977,1
 "exeter, united kingdom",50.7255794,-3.5269497,1
 "tulsa, oklahoma, us",36.1556805,-95.9929113,2
 "monterey, california, us",36.2231079,-121.3877428,2
 "johannesburg, south africa",-26.205,28.049722,1
-"louisville, kentucky, us",38.2542376,-85.759407,1
+"louisville, kentucky, us",38.2542376,-85.759407,2
 "tempe, arizona, usa",33.4255056,-111.9400091,2
 "durango, colorado, us",37.2395367,-107.82158179169292,2
 "tampa, florida, us",27.9477595,-82.458444,1
-"greenbelt, maryland, us",38.9937333,-76.883065797021,1
+"greenbelt, maryland, us",38.9937333,-76.883065797021,3
 "berlin heights, ohio, us",41.3253278,-82.4932261,1
-"argonne, illinois, us",41.70914095,-87.97862213166601,2
+"argonne, illinois, us",41.70914095,-87.97862213166601,3
 "cookeville, tennessee, us",36.1623886,-85.4997057,1
 "rio de janeiro, rio de janeiro, brazil",-22.9110137,-43.2093727,1
 "kolkata, india",22.5414185,88.35769124388872,1
 "stellenbosch, south africa",-33.934444,18.869167,1
 "puebla, mexico",18.833333,-98.0,1
-"santa barbara, california, us",34.4221319,-119.7026673,2
+"santa barbara, california, us",34.4221319,-119.7026673,3
 "charlotte, north carolina, us",35.2272086,-80.8430827,1
 "johannesburg, gauteng, south africa",-26.205,28.049722,1
 "wurzburg, germany",49.79245,9.932966,1
 "petaluma, california, us",38.2325829,-122.636465,1
-"hanover, new hampshire, us",43.703622,-72.288666,1
+"hanover, new hampshire, us",43.703622,-72.288666,2
 "kennewick, washington, us",46.2087066,-119.1199192,1
 "queensland, australia",-22.1646782,144.5844903,1
 "lisbon, portugal",38.7077507,-9.1365919,1
@@ -240,14 +240,14 @@ hong kong,22.2793278,114.1628131,1
 "brooklyn, new york, us",40.6526006,-73.9497211,3
 "hillsborough, north carolina, us",36.0752297,-79.0992279,2
 "port hadlock, washington, us",48.0317611,-122.7582269,1
-"flagstaff, arizona, us",35.1987522,-111.6518229,1
+"flagstaff, arizona, us",35.1987522,-111.6518229,3
 "new york city, new york, us",40.7127281,-74.0060152,3
-"fullerton, california, us",33.8739385,-117.9243399,1
+"fullerton, california, us",33.8739385,-117.9243399,2
 "munich, germany",48.1371079,11.5753822,1
 "edwardsville, il",38.8114364,-89.953157,1
 "new delhi, india",28.6138954,77.2090057,1
 "allston, massachusetts, us",42.3554344,-71.1321271,1
-"batavia, illinois, us",41.8500284,-88.3125738,1
+"batavia, illinois, us",41.8500284,-88.3125738,4
 "rochester, minnesota, us",44.0234387,-92.4630182,1
 "martinez, california, us",38.0138934,-122.1338674,1
 "irvine, california, us",33.6856969,-117.8259819,1
@@ -281,7 +281,6 @@ singapore,1.357107,103.8194992,1
 "spencer, tennessee, us",35.7472893,-85.4666413,1
 "quincy, massachusetts, us",42.2509914,-71.0037374,1
 "wuhan, china",30.5951051,114.2999353,1
-"oak ridge, tennessee,  us",36.0103562,-84.2696449,1
 "kansas city, kansas, us",39.1134562,-94.626497,1
 "west lafayette, in, us",40.4258686,-86.9080655,1
 "north bonneville, washington, us",45.6373393,-121.9711934,1
@@ -295,7 +294,32 @@ singapore,1.357107,103.8194992,1
 "campinas, brazil",-22.90556,-47.06083,1
 "sao paulo, brazil",-23.5506507,-46.6333824,1
 "rio de janeiro, brazil",-22.9110137,-43.2093727,1
-"el paso, texas, us",31.7865623,-106.441207,1
+"el paso, texas, us",31.7865623,-106.441207,2
 "macaubal, sao paulo, brazil",-20.8071616,-49.9648439,1
 "marina del rey, california, us",33.9776848,-118.4486479,1
 "st. peter, minnesota, us",44.3238384,-93.9585295,1
+"newark, new jersey, us",40.735657,-74.1723667,1
+"ponte vedra, florida, us",30.2274645,-81.3800824,1
+"juneau, alaska, us",58.3019496,-134.419734,1
+"culver city, california, us",34.0211224,-118.396466,1
+"baton rouge, louisiana, us",30.4507936,-91.1391153,1
+"sao carlos, sao paulo, brazil",-22.0180395,-47.891154,1
+"zurich, switzerland",47.3744489,8.5410422,1
+"lagos, nigeria",6.4550575,3.3941795,2
+"stockholm, sweden",59.3251172,18.0710935,1
+"las cruces, new mexico, us",32.3140354,-106.779807,1
+"bloemfontein, south africa",-29.116395,26.215496,1
+nigeria,9.6000359,7.9999721,1
+"hillsboro, oregon, us",45.5228939,-122.989827,1
+"north aurora, illinois, us",41.8061399,-88.3272952,1
+"dublin, ohio, us",40.0992294,-83.1140771,1
+"broomfield, colorado, us",39.9403995,-105.05208,1
+"aqaba, jordan",29.5266483,35.0075433,1
+"toronto, ontario, canada",43.6534817,-79.3839347,1
+uganda,1.5333554,32.2166578,1
+"winnipeg, manitoba, canada",49.8955367,-97.1384584,1
+"palm springs, california, us",33.772179449999996,-116.49529769683983,1
+"redmond, oregon, us",44.2726203,-121.1739212,1
+"karachi, pakistan",24.8546842,67.0207055,1
+"berkley, massachusetts, us",41.8459347,-71.0828222,1
+"bryan, texas, us",30.6743643,-96.3699632,1
