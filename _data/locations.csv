@@ -18,7 +18,7 @@ name,lat,lng,count
 "atlanta, georgia, us",33.7489924,-84.3902644,14
 "chapel hill, north carolina, us",35.9131542,-79.05578,5
 "los alamos, new mexico, us",35.8814009,-106.2989958,13
-"albuquerque, new mexico, us",35.0841034,-106.6509851,24
+"albuquerque, new mexico, us",35.0841034,-106.6509851,25
 "notre dame, indiana, us",41.704567749999995,-86.23822026017265,2
 "phoenix, arizona, us",33.4484367,-112.0741417,5
 "armonk, new york, us",41.1330485,-73.71262371614495,1
@@ -40,7 +40,7 @@ name,lat,lng,count
 "bellevue, washington, us",47.6144219,-122.1923372,4
 "oak ridge, tennessee, us",36.0103562,-84.2696449,23
 "urbana, illinois, us",40.1117174,-88.207301,19
-"seattle, washington, us",47.6038321,-122.3300624,35
+"seattle, washington, us",47.6038321,-122.3300624,36
 "minneapolis, minnesota, us",44.9772995,-93.2654692,4
 "golden, colorado, us",39.743310699999995,-105.21250036061394,16
 "madison, wisconsin, us",43.074761,-89.3837613,14
@@ -69,7 +69,7 @@ name,lat,lng,count
 "college park, maryland, us",38.980666,-76.9369189,4
 "dartmouth, new hampshire, us",43.7031165,-72.2898092,1
 "gainesville, florida, us",29.6519684,-82.3249846,4
-"boulder, colorado, us",40.0149856,-105.2705456,39
+"boulder, colorado, us",40.0149856,-105.2705456,40
 "amherst, massachusetts, us",42.3685658,-72.505714,1
 "oakton, virginia, us",38.896729,-77.29866437219505,1
 "socorro, new mexico, us",34.0572858,-106.8930799,1
@@ -340,3 +340,5 @@ uganda,1.5333554,32.2166578,1
 "lewiston, new york, us",43.172555,-79.035878,1
 "benha, qalyubia, egypt",30.4624974,31.184063,1
 "jamestown, rhode island, us",41.4970465,-71.3672755,1
+"tinkune, kathmandu, nepal",27.685277999999997,85.34866862071789,1
+washington dc,38.8950368,-77.0365427,1
