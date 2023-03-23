@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 # Update map will retrieve locations via a csv, and then generate a new yaml file using lookup of schools
-# https://docs.google.com/spreadsheets/d/1FTnl8ucFKYtiS2xhNiK8VwXeE5BuBDCzL_k9SbqyG6A/edit#gid=1109363929
 # requests is required
 # Copyright @vsoch, 2020
 
