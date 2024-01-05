@@ -7,12 +7,12 @@ name,lat,lng,count
 "pittsburgh, pennsylvania, us",40.4416941,-79.9900861,21
 "state college, pennsylvania, us",40.7944504,-77.8616386,12
 "east lansing, michigan, us",42.7355416,-84.4852469,10
-"princeton, new jersey, us",40.3492744,-74.6592958,35
+"princeton, new jersey, us",40.3492744,-74.6592958,36
 "portland, oregon, us",45.5202471,-122.6741949,5
 "buffalo, new york, us",42.8867166,-78.8783922,5
-"austin, texas, us",30.2711286,-97.7436995,20
+"austin, texas, us",30.2711286,-97.7436995,21
 "san antonio, texas, us",29.4246002,-98.4951405,1
-"berkeley, california, us",37.8708393,-122.2728639,51
+"berkeley, california, us",37.8708393,-122.2728639,53
 "lexington, kentucky, us",38.0464066,-84.4970393,4
 "santa clara, california, us",37.2333253,-121.6846349,4
 "atlanta, georgia, us",33.7489924,-84.3902644,23
@@ -29,32 +29,32 @@ name,lat,lng,count
 "kathmandu, nepal",27.708317,85.3205817,1
 "london, united kingdom",51.5073219,-0.1276474,4
 "chicago, illinois, us",41.8755616,-87.6244212,57
-"cambridge, massachusetts, us",42.3750997,-71.1056157,25
+"cambridge, massachusetts, us",42.3750997,-71.1056157,26
 "iowa city, iowa, us",41.6612561,-91.5299106,6
 "blacksburg, virginia, us",37.2296566,-80.4136767,9
 "reading, united kingdom",51.456659,-0.9696512,1
-"los angeles, california, us",34.0536909,-118.242766,17
+"los angeles, california, us",34.0536909,-118.242766,19
 "washington, dc, us",38.8949924,-77.0365581,12
 "newark, delaware, us",39.6852191,-75.7508289,10
 "bloomington, indiana, us",39.1670396,-86.5342881,6
 "bellevue, washington, us",47.6144219,-122.1923372,6
 "oak ridge, tennessee, us",36.0103562,-84.2696449,32
 "urbana, illinois, us",40.1117174,-88.207301,25
-"seattle, washington, us",47.6038321,-122.3300624,48
-"minneapolis, minnesota, us",44.9772995,-93.2654692,10
+"seattle, washington, us",47.6038321,-122.3300624,49
+"minneapolis, minnesota, us",44.9772995,-93.2654692,12
 "golden, colorado, us",39.743310699999995,-105.21250036061394,18
 "madison, wisconsin, us",43.074761,-89.3837613,20
 "houston, texas, us",29.7589382,-95.3676974,13
-"charlottesville, virginia, us",38.029306,-78.4766781,2
+"charlottesville, virginia, us",38.029306,-78.4766781,4
 "livermore, california, us",37.6820583,-121.7680531,13
 "huntingdon, united kingdom",52.3314292,-0.1847723,1
-"clifton park, new york, us",42.8656325,-73.7709535,4
+"clifton park, new york, us",42.8656325,-73.7709535,5
 "lemont, illinois, us",41.6737149,-88.0016263,8
 "clemson, south carolina, us",34.6850749,-82.8364111,4
 "philadelphia, pennsylvania, us",39.9527237,-75.1635262,15
-"laramie, wyoming, us",41.311367,-105.591101,8
+"laramie, wyoming, us",41.311367,-105.591101,9
 "boise, idaho, us",43.6166163,-116.200886,8
-"bethesda, maryland, us",38.9819845,-77.12423413116392,6
+"bethesda, maryland, us",38.9819845,-77.12423413116392,7
 "toronto, canada",43.6534817,-79.3839347,11
 "champaign, illinois, us",40.1164205,-88.2433829,17
 "memphis, tennessee, us",35.1490215,-90.0516285,3
@@ -68,8 +68,8 @@ name,lat,lng,count
 "waterloo, ontario, canada",43.4652699,-80.5222961,3
 "college park, maryland, us",38.980666,-76.9369189,6
 "dartmouth, new hampshire, us",43.7031165,-72.2898092,1
-"gainesville, florida, us",29.6519684,-82.3249846,7
-"boulder, colorado, us",40.0149856,-105.2705456,50
+"gainesville, florida, us",29.6519684,-82.3249846,8
+"boulder, colorado, us",40.0149856,-105.2705456,51
 "amherst, massachusetts, us",42.3685658,-72.505714,1
 "oakton, virginia, us",38.896729,-77.29866437219505,2
 "socorro, new mexico, us",34.0572858,-106.8930799,1
@@ -77,7 +77,7 @@ name,lat,lng,count
 "orange, california, us",33.7500378,-117.8704931,1
 "nashville, tennessee, us",36.1622296,-86.7743531,10
 "tucson, arizona, us",32.2228765,-110.9748477,17
-"ann arbor, michigan, us",42.2681569,-83.7312291,21
+"ann arbor, michigan, us",42.2681569,-83.7312291,22
 "montreal, canada",45.4972159,-73.6103642,3
 "menlo park, california, us",37.4519671,-122.1779927,7
 "nethergate, dundee, united kingdom",56.4584161,-2.9736888,1
@@ -92,7 +92,7 @@ name,lat,lng,count
 "new orleans, louisiana, us",29.9499323,-90.0701156,5
 "montgomery, west virginia, us",38.1803833,-81.3284452,1
 "norfolk, virginia, us",36.8462923,-76.2929252,2
-"columbus, ohio, us",39.9622601,-83.0007065,12
+"columbus, ohio, us",39.9622601,-83.0007065,13
 "new britain, connecticut, us",41.6796456,-72.78834682044055,1
 "provo, utah, us",40.2338438,-111.6585337,1
 "kirkwood, missouri, us",38.5800713,-90.4069177,1
@@ -102,8 +102,8 @@ name,lat,lng,count
 "matias barbosa, mg - brazil",-21.8691643,-43.3180624,1
 "durham, north carolina, us",35.996653,-78.9018053,5
 "knoxville, tennessee, us",35.9603948,-83.9210261,17
-"san jose, california, us",37.3361905,-121.890583,5
-"university park, pennsylvania, us",40.8087493,-77.8585662,6
+"san jose, california, us",37.3361905,-121.890583,6
+"university park, pennsylvania, us",40.8087493,-77.8585662,7
 "hilo, hawaii, us",19.7073734,-155.0815803,3
 "upton, new york, us",40.869543,-72.8867697,2
 "islamabad, pakistan",33.6938118,73.0651511,1
@@ -128,12 +128,12 @@ name,lat,lng,count
 "arlington, virginia, us",38.8807617,-77.10769081477989,2
 "lenoir city, tennessee, us",35.7972998,-84.2560299,1
 "pullman, washington, us",46.7304268,-117.173895,2
-"columbia, maryland, us",39.193919550000004,-76.87477229012376,1
+"columbia, maryland, us",39.193919550000004,-76.87477229012376,2
 "baltimore, maryland, us",39.2908816,-76.610759,28
 copenhagen,55.6867243,12.5700724,1
 "new brunswick, new jersey, us",40.4862174,-74.4518173,3
 "palo alto, california, us",37.4443293,-122.1598465,5
-"salt lake city, utah, us",40.7596198,-111.8867975,11
+"salt lake city, utah, us",40.7596198,-111.8867975,12
 "holyoke, massachusetts, us",42.2071434,-72.60765,1
 "scottsdale, arizona, us",33.4942189,-111.9260184,2
 "mountain view, california, us",37.3893889,-122.0832101,2
@@ -234,7 +234,7 @@ hong kong,22.2793278,114.1628131,1
 "white rock, new mexico, us",36.5677788,-109.0264854,1
 "norman, oklahoma, us",35.2225717,-97.4394816,1
 "sao paolo, brazil",-23.5506507,-46.6333824,1
-"somerville, massachusetts, us",42.3875968,-71.0994968,2
+"somerville, massachusetts, us",42.3875968,-71.0994968,3
 "sydney, australia",-33.8548157,151.2164539,1
 "manchester, connecticut, us",41.781326899999996,-72.53047449141525,1
 "brooklyn, new york, us",40.6526006,-73.9497211,4
@@ -245,7 +245,7 @@ hong kong,22.2793278,114.1628131,1
 "fullerton, california, us",33.8739385,-117.9243399,2
 "munich, germany",48.1371079,11.5753822,1
 "edwardsville, il",38.8114364,-89.953157,1
-"new delhi, india",28.6138954,77.2090057,1
+"new delhi, india",28.6138954,77.2090057,2
 "allston, massachusetts, us",42.3554344,-71.1321271,1
 "batavia, illinois, us",41.8500284,-88.3125738,4
 "massillon, ohio, us",40.7965119,-81.5231597,1
@@ -357,7 +357,7 @@ uganda,1.5333554,32.2166578,1
 "birmingham, uk",52.4796992,-1.9026911,1
 "cedar park, texas, us",30.5217116,-97.827833,1
 "birmingham, united kingdom",52.4796992,-1.9026911,2
-"london, uk",51.5073359,-0.12765,5
+"london, uk",51.5073359,-0.12765,6
 "cyprus, limassol",34.6852901,33.0332657,1
 "saint louis park, minnesota, us",44.9475726,-93.3569023,1
 "wilmington, north carolina, us",34.2257282,-77.9447107,1
@@ -375,7 +375,7 @@ uganda,1.5333554,32.2166578,1
 "birmingham, al",33.5206824,-86.8024326,1
 "seattle, wa, us",47.6038321,-122.330062,1
 "boulder, colorado us",40.0149856,-105.270545,1
-"berkeley, california",37.8708393,-122.272863,1
+"berkeley, california",37.8708393,-122.272863,2
 "portland, oregon,  us",45.5202471,-122.674194,1
 "draper, utah, us",40.5247777,-111.8627989,1
 "gothenburg, sweden",57.7072326,11.9670171,2
@@ -449,7 +449,7 @@ united kingdom,54.7023545,-3.2765753,1
 "annapolis, maryland, us",38.9786401,-76.492786,1
 "ontario , ohio, us",40.7595418,-82.5901658,1
 "ohio, us",40.2253569,-82.6881395,1
-"maryland, us",39.5162401,-76.9382069,1
+"maryland, us",39.5162401,-76.9382069,2
 "marshfield, wisconsin, us",44.6688524,-90.1717987,1
 tampa,27.9477595,-82.458444,1
 "baltimore, maryland",39.2908816,-76.610759,1
@@ -487,3 +487,9 @@ la serena,-29.902631,-71.2520253,1
 "charlottesville, virginia",38.029306,-78.4766781,1
 "winston-salem, north carolina, us",36.0998131,-80.2440518,1
 "wilmington, delaware, us",39.7459468,-75.546589,1
+"san diego, california",32.7174202,-117.1627728,1
+berkeley california us,37.8708393,-122.272863,1
+"gelugor, penang, malaysia",5.3683584,100.3099939,1
+"brandon, mississippi, us",32.2731475,-89.9868058,1
+"skokie, illinois, us",42.0262972,-87.7521069,1
+"cape girardeau, missouri",37.3034933,-89.5230357,1
