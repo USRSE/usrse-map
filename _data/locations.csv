@@ -7,34 +7,34 @@ name,lat,lng,count
 "pittsburgh, pennsylvania, us",40.4416941,-79.9900861,21
 "state college, pennsylvania, us",40.7944504,-77.8616386,12
 "east lansing, michigan, us",42.7355416,-84.4852469,10
-"princeton, new jersey, us",40.3492744,-74.6592958,36
+"princeton, new jersey, us",40.3492744,-74.6592958,38
 "portland, oregon, us",45.5202471,-122.6741949,5
 "buffalo, new york, us",42.8867166,-78.8783922,5
-"austin, texas, us",30.2711286,-97.7436995,21
+"austin, texas, us",30.2711286,-97.7436995,22
 "san antonio, texas, us",29.4246002,-98.4951405,1
-"berkeley, california, us",37.8708393,-122.2728639,53
+"berkeley, california, us",37.8708393,-122.2728639,54
 "lexington, kentucky, us",38.0464066,-84.4970393,4
 "santa clara, california, us",37.2333253,-121.6846349,4
-"atlanta, georgia, us",33.7489924,-84.3902644,23
+"atlanta, georgia, us",33.7489924,-84.3902644,24
 "chapel hill, north carolina, us",35.9131542,-79.05578,6
 "los alamos, new mexico, us",35.8814009,-106.2989958,21
-"albuquerque, new mexico, us",35.0841034,-106.6509851,33
+"albuquerque, new mexico, us",35.0841034,-106.6509851,37
 "notre dame, indiana, us",41.704567749999995,-86.23822026017265,8
 "phoenix, arizona, us",33.4484367,-112.0741417,7
 "armonk, new york, us",41.1330485,-73.71262371614495,1
-"new york, new york, us",40.7127281,-74.0060152,55
+"new york, new york, us",40.7127281,-74.0060152,56
 "caulfield east, victoria, australia",-37.881276,145.0420847,1
 "huntsville, alabama, us",34.729847,-86.5859011,1
 "kanpur, india",26.4609135,80.3217588,1
 "kathmandu, nepal",27.708317,85.3205817,1
 "london, united kingdom",51.5073219,-0.1276474,4
-"chicago, illinois, us",41.8755616,-87.6244212,57
+"chicago, illinois, us",41.8755616,-87.6244212,58
 "cambridge, massachusetts, us",42.3750997,-71.1056157,26
 "iowa city, iowa, us",41.6612561,-91.5299106,6
 "blacksburg, virginia, us",37.2296566,-80.4136767,9
 "reading, united kingdom",51.456659,-0.9696512,1
 "los angeles, california, us",34.0536909,-118.242766,19
-"washington, dc, us",38.8949924,-77.0365581,12
+"washington, dc, us",38.8949924,-77.0365581,13
 "newark, delaware, us",39.6852191,-75.7508289,10
 "bloomington, indiana, us",39.1670396,-86.5342881,6
 "bellevue, washington, us",47.6144219,-122.1923372,6
@@ -46,13 +46,13 @@ name,lat,lng,count
 "madison, wisconsin, us",43.074761,-89.3837613,20
 "houston, texas, us",29.7589382,-95.3676974,13
 "charlottesville, virginia, us",38.029306,-78.4766781,4
-"livermore, california, us",37.6820583,-121.7680531,13
+"livermore, california, us",37.6820583,-121.7680531,14
 "huntingdon, united kingdom",52.3314292,-0.1847723,1
 "clifton park, new york, us",42.8656325,-73.7709535,5
 "lemont, illinois, us",41.6737149,-88.0016263,8
 "clemson, south carolina, us",34.6850749,-82.8364111,4
-"philadelphia, pennsylvania, us",39.9527237,-75.1635262,15
-"laramie, wyoming, us",41.311367,-105.591101,9
+"philadelphia, pennsylvania, us",39.9527237,-75.1635262,17
+"laramie, wyoming, us",41.311367,-105.591101,11
 "boise, idaho, us",43.6166163,-116.200886,8
 "bethesda, maryland, us",38.9819845,-77.12423413116392,7
 "toronto, canada",43.6534817,-79.3839347,11
@@ -81,9 +81,9 @@ name,lat,lng,count
 "montreal, canada",45.4972159,-73.6103642,3
 "menlo park, california, us",37.4519671,-122.1779927,7
 "nethergate, dundee, united kingdom",56.4584161,-2.9736888,1
-"honolulu, hawaii, us",21.304547,-157.8556764,2
+"honolulu, hawaii, us",21.304547,-157.8556764,3
 "durham, new hampshire, us",43.134564,-70.927048,1
-"san diego, california, us",32.7174202,-117.1627728,16
+"san diego, california, us",32.7174202,-117.1627728,17
 "hamilton, ontario, canada",43.2560802,-79.8728583,1
 "boston, massachusetts, us",42.3602534,-71.0582912,36
 "kennesaw, georgia, us",34.0234337,-84.6154897,4
@@ -109,7 +109,7 @@ name,lat,lng,count
 "islamabad, pakistan",33.6938118,73.0651511,1
 "reykjavik, iceland",64.145981,-21.9422367,1
 "porto alegre, rs, brazil",-30.0324999,-51.2303767,1
-"denver, colorado, us",39.7392364,-104.9848623,14
+"denver, colorado, us",39.7392364,-104.9848623,16
 "omaha, nebraska, us",41.2587459,-95.9383758,2
 "weatherford, oklahoma, us",35.5261633,-98.7075744,1
 "tuscaloosa, alabama, us",33.2095614,-87.5675258,2
@@ -120,7 +120,7 @@ name,lat,lng,count
 "santa cruz, california, us",37.050096,-121.9905908,2
 "oxford, uk",51.7520131,-1.2578499,2
 "indianapolis, indiana, us",39.779801,-86.1394092110328,1
-"raleigh, north carolina, us",35.7803977,-78.6390989,9
+"raleigh, north carolina, us",35.7803977,-78.6390989,11
 "lubbock, texas, us",33.5635206,-101.879336,2
 "fairfax, virginia, us",38.8462236,-77.3063733,3
 "la jolla, california, us",32.83259,-117.2716839,10
@@ -251,7 +251,7 @@ hong kong,22.2793278,114.1628131,1
 "massillon, ohio, us",40.7965119,-81.5231597,1
 "rochester, minnesota, us",44.0234387,-92.4630182,1
 "martinez, california, us",38.0138934,-122.1338674,1
-"irvine, california, us",33.6856969,-117.8259819,2
+"irvine, california, us",33.6856969,-117.8259819,3
 "geneva, switzerland",46.2017559,6.1466014,1
 "saint louis, missouri, us",38.6264256,-90.1995853,1
 singapore,1.357107,103.8194992,1
@@ -332,7 +332,7 @@ uganda,1.5333554,32.2166578,1
 "district of columbia, us",38.89384735,-76.98804281910948,1
 "college station texas, us",30.5955289,-96.3071042,1
 "traverse city, michigan, us",44.7606441,-85.6165301,1
-"mobile, alabama, us",30.6867339,-88.0848929,1
+"mobile, alabama, us",30.6867339,-88.0848929,2
 "madison, wi, us",43.074761,-89.3837613,1
 "chennai, tamil nadu, india",13.0836939,80.270186,1
 "anchorage, alaska, us",61.2163129,-149.894852,1
@@ -351,7 +351,7 @@ uganda,1.5333554,32.2166578,1
 "wellesley, massachusetts, us",42.2964859,-71.2925571,1
 "karlsruhe, germany",49.0068705,8.4034195,1
 "wichita, kansas, us",37.6922361,-97.3375448,1
-"northridge, california, us",34.2345615,-118.5369316,1
+"northridge, california, us",34.2345615,-118.5369316,2
 "seoul, republic of korea",37.5666791,126.9782914,1
 "durham, uk",54.666667,-1.75,1
 "birmingham, uk",52.4796992,-1.9026911,1
@@ -492,4 +492,10 @@ berkeley california us,37.8708393,-122.272863,1
 "gelugor, penang, malaysia",5.3683584,100.3099939,1
 "brandon, mississippi, us",32.2731475,-89.9868058,1
 "skokie, illinois, us",42.0262972,-87.7521069,1
-"cape girardeau, missouri",37.3034933,-89.5230357,1
+"cape girardeau, missouri, us",37.3034933,-89.5230357,1
+"abuja , nigeria",9.0643305,7.4892974,1
+"macon, georgia, us",32.8406946,-83.6324022,1
+"utrecht, the netherlands",52.0907006,5.1215634,1
+"little rock, arkansas, us",34.7465071,-92.2896267,1
+"santa fe, new mexico, us",35.6876096,-105.938456,1
+"chestnut hill, massachusetts, us",42.3306529,-71.1661647,1
