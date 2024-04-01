@@ -33,7 +33,7 @@ name,lat,lng,count
 "iowa city, iowa, us",41.6612561,-91.5299106,6
 "blacksburg, virginia, us",37.2296566,-80.4136767,9
 "reading, united kingdom",51.456659,-0.9696512,1
-"los angeles, california, us",34.0536909,-118.242766,20
+"los angeles, california, us",34.0536909,-118.242766,21
 "washington, dc, us",38.8949924,-77.0365581,13
 "newark, delaware, us",39.6852191,-75.7508289,10
 "bloomington, indiana, us",39.1670396,-86.5342881,6
@@ -52,11 +52,11 @@ name,lat,lng,count
 "lemont, illinois, us",41.6737149,-88.0016263,8
 "clemson, south carolina, us",34.6850749,-82.8364111,4
 "philadelphia, pennsylvania, us",39.9527237,-75.1635262,18
-"laramie, wyoming, us",41.311367,-105.591101,11
+"laramie, wyoming, us",41.311367,-105.591101,12
 "boise, idaho, us",43.6166163,-116.200886,8
 "bethesda, maryland, us",38.9819845,-77.12423413116392,7
 "toronto, canada",43.6534817,-79.3839347,11
-"champaign, illinois, us",40.1164205,-88.2433829,18
+"champaign, illinois, us",40.1164205,-88.2433829,19
 "memphis, tennessee, us",35.1490215,-90.0516285,3
 "cleveland, ohio, us",41.5051613,-81.6934446,2
 "dallas, texas, us",32.7762719,-96.7968559,9
@@ -393,7 +393,7 @@ uganda,1.5333554,32.2166578,1
 "tennessee, usa",35.7730076,-86.2820081,1
 "rockville, maryland, us",39.0817985,-77.1516844,1
 "colorado, us",38.7251776,-105.607716,1
-"las vegas, nevada, us",36.1672559,-115.148516,1
+"las vegas, nevada, us",36.1672559,-115.148516,2
 canada,61.0666922,-107.991707,2
 "stillwater, oklahoma, us",36.1156306,-97.0585717,1
 "hollywood, florida, us",26.0112014,-80.1494901,1
@@ -414,7 +414,7 @@ amsterdam,52.3730796,4.8924534,1
 "lahore, punjab, pakistan",31.5656822,74.3141829,1
 "chandler, arizona, us",33.3062031,-111.8411851,1
 kampala,0.3177137,32.5813539,1
-"college station, texas, us",30.5955289,-96.3071042,1
+"college station, texas, us",30.5955289,-96.3071042,2
 "washington, dc",38.8950368,-77.0365427,1
 "vancouver, canada",49.2608724,-123.113952,1
 "littleton, colorado, us",39.613321,-105.016649,1
@@ -501,8 +501,6 @@ berkeley california us,37.8708393,-122.272863,1
 "chestnut hill, massachusetts, us",42.3306529,-71.1661647,1
 "columbia, south carolina, us",34.0003117,-81.0331309,1
 "amsterdam, nl",52.3730796,4.8924534,1
-"college station, tx, us",30.6183939,-96.3455991,1
-"laramie, wy, us",41.311367,-105.591101,1
 "bangkok, bangkok, thailand",13.7524938,100.4935089,1
 "espoo, finland",60.2047672,24.6568435,1
 "san luis obispo, california, us",35.3540209,-120.375716,1
