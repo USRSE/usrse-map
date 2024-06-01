@@ -7,12 +7,12 @@ name,lat,lng,count
 "pittsburgh, pennsylvania, us",40.4416941,-79.9900861,22
 "state college, pennsylvania, us",40.7944504,-77.8616386,13
 "east lansing, michigan, us",42.7355416,-84.4852469,12
-"princeton, new jersey, us",40.3492744,-74.6592958,43
+"princeton, new jersey, us",40.3492744,-74.6592958,44
 "portland, oregon, us",45.5202471,-122.6741949,6
 "buffalo, new york, us",42.8867166,-78.8783922,5
 "austin, texas, us",30.2711286,-97.7436995,22
 "san antonio, texas, us",29.4246002,-98.4951405,1
-"berkeley, california, us",37.8708393,-122.2728639,59
+"berkeley, california, us",37.8708393,-122.2728639,60
 "lexington, kentucky, us",38.0464066,-84.4970393,4
 "santa clara, california, us",37.2333253,-121.6846349,5
 "atlanta, georgia, us",33.7489924,-84.3902644,27
@@ -28,19 +28,19 @@ name,lat,lng,count
 "kanpur, india",26.4609135,80.3217588,1
 "kathmandu, nepal",27.708317,85.3205817,1
 "london, united kingdom",51.5073219,-0.1276474,4
-"chicago, illinois, us",41.8755616,-87.6244212,61
+"chicago, illinois, us",41.8755616,-87.6244212,63
 "cambridge, massachusetts, us",42.3750997,-71.1056157,26
 "iowa city, iowa, us",41.6612561,-91.5299106,8
 "blacksburg, virginia, us",37.2296566,-80.4136767,9
 "reading, united kingdom",51.456659,-0.9696512,1
 "los angeles, california, us",34.0536909,-118.242766,21
-"washington, dc, us",38.8949924,-77.0365581,14
+"washington, dc, us",38.8949924,-77.0365581,17
 "newark, delaware, us",39.6852191,-75.7508289,11
 "bloomington, indiana, us",39.1670396,-86.5342881,6
 "bellevue, washington, us",47.6144219,-122.1923372,6
 "oak ridge, tennessee, us",36.0103562,-84.2696449,35
 "urbana, illinois, us",40.1117174,-88.207301,25
-"seattle, washington, us",47.6038321,-122.3300624,53
+"seattle, washington, us",47.6038321,-122.3300624,54
 "minneapolis, minnesota, us",44.9772995,-93.2654692,12
 "golden, colorado, us",39.743310699999995,-105.21250036061394,19
 "madison, wisconsin, us",43.074761,-89.3837613,20
@@ -69,7 +69,7 @@ name,lat,lng,count
 "college park, maryland, us",38.980666,-76.9369189,6
 "dartmouth, new hampshire, us",43.7031165,-72.2898092,1
 "gainesville, florida, us",29.6519684,-82.3249846,8
-"boulder, colorado, us",40.0149856,-105.2705456,56
+"boulder, colorado, us",40.0149856,-105.2705456,57
 "amherst, massachusetts, us",42.3685658,-72.505714,1
 "oakton, virginia, us",38.896729,-77.29866437219505,2
 "socorro, new mexico, us",34.0572858,-106.8930799,1
@@ -83,9 +83,9 @@ name,lat,lng,count
 "nethergate, dundee, united kingdom",56.4584161,-2.9736888,1
 "honolulu, hawaii, us",21.304547,-157.8556764,3
 "durham, new hampshire, us",43.134564,-70.927048,1
-"san diego, california, us",32.7174202,-117.1627728,19
+"san diego, california, us",32.7174202,-117.1627728,20
 "hamilton, ontario, canada",43.2560802,-79.8728583,1
-"boston, massachusetts, us",42.3602534,-71.0582912,36
+"boston, massachusetts, us",42.3602534,-71.0582912,37
 "kennesaw, georgia, us",34.0234337,-84.6154897,4
 "bethlehem, pennsylvania, us",40.6178915,-75.3786521,3
 "claremont, california, us",34.0966764,-117.7197785,1
@@ -101,7 +101,7 @@ name,lat,lng,count
 "ottawa, canada",45.421106,-75.690308,1
 "matias barbosa, mg - brazil",-21.8691643,-43.3180624,1
 "durham, north carolina, us",35.996653,-78.9018053,5
-"knoxville, tennessee, us",35.9603948,-83.9210261,18
+"knoxville, tennessee, us",35.9603948,-83.9210261,19
 "san jose, california, us",37.3361905,-121.890583,6
 "university park, pennsylvania, us",40.8087493,-77.8585662,7
 "hilo, hawaii, us",19.7073734,-155.0815803,3
@@ -186,7 +186,7 @@ india,22.3511148,78.6677428,1
 "ithaca, new york, us",42.4396039,-76.4968019,9
 "saint paul, minnesota us",44.9500208,-93.0949764,1
 "merced, california, us",37.1641544,-120.7678602,2
-"gaithersburg, maryland, us",39.1399187,-77.1929215,6
+"gaithersburg, maryland, us",39.1399187,-77.1929215,7
 "wauwatosa, wisconsin, us",43.0494122,-88.0079271,1
 "columbia, missouri, us",38.951883,-92.3337366,4
 "edinburgh, united kingdom",55.9533456,-3.1883749,1
@@ -286,7 +286,7 @@ singapore,1.357107,103.8194992,1
 "west lafayette, in, us",40.4258686,-86.9080655,1
 "north bonneville, washington, us",45.6373393,-121.9711934,1
 "greensboro, north carolina, us",36.0726355,-79.7919754,1
-"mumbai, india",19.0785451,72.878176,1
+"mumbai, india",19.0785451,72.878176,2
 "edmond, oklahoma, us",35.6571367,-97.4649038,1
 "kampala, nigeria",9.064508,7.4733442,1
 "lenexa, kansas, us",38.9697458,-94.7845837,1
@@ -357,7 +357,7 @@ uganda,1.5333554,32.2166578,1
 "birmingham, uk",52.4796992,-1.9026911,2
 "cedar park, texas, us",30.5217116,-97.827833,1
 "birmingham, united kingdom",52.4796992,-1.9026911,2
-"london, uk",51.5073359,-0.12765,6
+"london, uk",51.5073359,-0.12765,7
 "cyprus, limassol",34.6852901,33.0332657,1
 "saint louis park, minnesota, us",44.9475726,-93.3569023,1
 "wilmington, north carolina, us",34.2257282,-77.9447107,1
@@ -375,7 +375,7 @@ uganda,1.5333554,32.2166578,1
 "birmingham, al",33.5206824,-86.8024326,1
 "seattle, wa, us",47.6038321,-122.330062,1
 "boulder, colorado us",40.0149856,-105.270545,1
-"berkeley, california",37.8708393,-122.272863,2
+"berkeley, california",37.8708393,-122.272863,1
 "portland, oregon,  us",45.5202471,-122.674194,1
 "draper, utah, us",40.5247777,-111.8627989,1
 "gothenburg, sweden",57.7072326,11.9670171,2
@@ -394,6 +394,7 @@ uganda,1.5333554,32.2166578,1
 "rockville, maryland, us",39.0817985,-77.1516844,1
 "colorado, us",38.7251776,-105.607716,1
 "las vegas, nevada, us",36.1672559,-115.148516,3
+"brasilia, brazil",-10.3333333,-53.2,1
 canada,61.0666922,-107.991707,2
 "stillwater, oklahoma, us",36.1156306,-97.0585717,1
 "hollywood, florida, us",26.0112014,-80.1494901,1
@@ -487,7 +488,7 @@ la serena,-29.902631,-71.2520253,1
 "charlottesville, virginia",38.029306,-78.4766781,1
 "winston-salem, north carolina, us",36.0998131,-80.2440518,1
 "wilmington, delaware, us",39.7459468,-75.546589,1
-"san diego, california",32.7174202,-117.1627728,1
+"lucknow, india",26.8381,80.9346001,1
 berkeley california us,37.8708393,-122.272863,1
 "gelugor, penang, malaysia",5.3683584,100.3099939,1
 "brandon, mississippi, us",32.2731475,-89.9868058,1
@@ -519,3 +520,4 @@ berkeley california us,37.8708393,-122.272863,1
 "plano, texas, us",33.0136764,-96.6925096,1
 "dortmund, germany",51.5142273,7.4652789,1
 "cary, north carolina, us",35.7882893,-78.7812081,1
+"corona, california, us",33.8752945,-117.566444,1
